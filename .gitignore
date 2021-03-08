@@ -6,6 +6,9 @@ bin
 .project
 
 # gradle
+build
+gradle
+.gradle
 build.gradle
 gradle.bat
 gradlew
@@ -15,6 +18,6 @@ gradle.properties
 # other
 run
 mcmodsrepo
-
+.settings
 # Files from Forge MDK
 forge*changelog.txt
