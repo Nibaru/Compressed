@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compressed:compressed_end_stone_iii"
+    }
+  },
+  "result": {
+    "item": "compressed:compressed_end_stone_iv",
+    "count": 1
+  }
+}

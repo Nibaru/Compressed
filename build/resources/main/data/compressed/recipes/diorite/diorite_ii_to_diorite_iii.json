@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compressed:compressed_diorite_ii"
+    }
+  },
+  "result": {
+    "item": "compressed:compressed_diorite_iii",
+    "count": 1
+  }
+}

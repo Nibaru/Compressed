@@ -1,0 +1,30 @@
+======================
+v1.1.1 Bugfix
+    - Fixed Crafting recipes for soul sand.
+======================
+v1.1 Metal Blocks
+    -added compressed variants of the metals blocks:
+        coal
+        diamond
+        emerald
+        gold
+        iron
+        lapis
+        netherite
+        redstone
+
+======================
+v1.0 Initial Release
+    -added compressed variants of following blocks:
+        andesite
+        cobblestone
+        dorite
+        dirt
+        end stone
+        granite
+        gravel
+        netherrack
+        red sand
+        sand
+        soul sand
+        stone

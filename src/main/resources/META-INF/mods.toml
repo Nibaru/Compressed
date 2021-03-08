@@ -1,0 +1,19 @@
+#Anything that is optional which you are not using, just delete that line. You can also delete any of the '#comments'
+
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory
+license="All rights reserved" #mandatory https://choosealicense.com/
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+modId="compressed" #mandatory
+version="1.1" #mandatory
+displayName="Compressed" #mandatory
+updateJSONURL="" #optional
+displayURL="" #optional
+#logoFile="" #optional
+credits="" #optional
+authors="Nick Schell" #optional
+description='''
+This mod adds in compressed variants of most of the common vanilla blocks
+''' #mandatory

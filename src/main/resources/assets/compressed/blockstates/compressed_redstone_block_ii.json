@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "compressed:block/compressed_redstone_block_ii" }
+  }
+}
