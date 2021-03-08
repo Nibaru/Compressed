@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "compressed:blocks/blackstone_top_i",
+    "side": "compressed:blocks/blackstone_i"
+  }
+}

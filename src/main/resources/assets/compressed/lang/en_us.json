@@ -84,5 +84,9 @@
   "block.compressed.charcoal_block_i": "Compressed Charcoal Block I",
   "block.compressed.charcoal_block_ii": "Compressed Charcoal Block II",
   "block.compressed.charcoal_block_iii": "Compressed Charcoal Block III",
-  "block.compressed.charcoal_block_iv": "Compressed Charcoal Block IV"
+  "block.compressed.charcoal_block_iv": "Compressed Charcoal Block IV",
+  "block.compressed.blackstone_i": "Compressed Blackstone I",
+  "block.compressed.blackstone_ii": "Compressed Blackstone II",
+  "block.compressed.blackstone_iii": "Compressed Blackstone III",
+  "block.compressed.blackstone_iv": "Compressed Blackstone IV"
 }

@@ -1,6 +1,5 @@
 package gg.twinhead.compressed;
 
-import gg.twinhead.compressed.common.items.FuelItem;
 import gg.twinhead.compressed.common.blocks.CompressedBlock;
 import gg.twinhead.compressed.core.init.BlockInit;
 import net.minecraft.item.BlockItem;

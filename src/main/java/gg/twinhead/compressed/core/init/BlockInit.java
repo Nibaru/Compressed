@@ -17,7 +17,7 @@ public class BlockInit {
     public static final DeferredRegister<Block> FUELBLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Compressed.MOD_ID);
 
 
-    //START OF COBBLESTONES
+    //START OF BLACKSTONES
     public static final RegistryObject<Block> COBBLESTONE_I = BLOCKS.register("cobblestone_i", () ->
             new Block(AbstractBlock.Properties.create(Material.ROCK)
                     .hardnessAndResistance(3, 10)
@@ -306,6 +306,36 @@ public class BlockInit {
                     .setRequiresTool()
                     .sound(SoundType.NETHERRACK)));
     //End of Netherrack
+
+    //START OF BLACKSTONES
+    public static final RegistryObject<Block> BLACKSTONE_I = BLOCKS.register("blackstone_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(3, 10)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BLACKSTONE_II = BLOCKS.register("blackstone_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5, 25)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BLACKSTONE_III = BLOCKS.register("blackstone_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(7, 50)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BLACKSTONE_VI = BLOCKS.register("blackstone_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(10, 1000)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+    //End of Cobblestones
 
     //Start of Dirts
     public static final RegistryObject<Block> SOUL_SAND_I = BLOCKS.register("soul_sand_i", () ->
