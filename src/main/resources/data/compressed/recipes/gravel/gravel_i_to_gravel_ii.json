@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_gravel_i"
+      "item": "compressed:gravel_i"
     }
   },
   "result": {
-    "item": "compressed:compressed_gravel_ii",
+    "item": "compressed:gravel_ii",
     "count": 1
   }
 }

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_netherite_block_i"
+      "item": "compressed:netherite_block_i"
     }
   ],
   "result": {

@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_red_sand_iii"
+      "item": "compressed:red_sand_iii"
     }
   },
   "result": {
-    "item": "compressed:compressed_red_sand_iv",
+    "item": "compressed:red_sand_iv",
     "count": 1
   }
 }

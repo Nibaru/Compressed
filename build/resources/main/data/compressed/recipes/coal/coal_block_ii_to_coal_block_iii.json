@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_coal_block_ii"
+      "item": "compressed:coal_block_ii"
     }
   },
   "result": {
-    "item": "compressed:compressed_coal_block_iii",
+    "item": "compressed:coal_block_iii",
     "count": 1
   }
 }

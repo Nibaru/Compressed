@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_gold_block_i"
+      "item": "compressed:gold_block_i"
     }
   ],
   "result": {

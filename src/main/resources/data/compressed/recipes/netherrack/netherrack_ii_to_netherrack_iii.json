@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_netherrack_ii"
+      "item": "compressed:netherrack_ii"
     }
   },
   "result": {
-    "item": "compressed:compressed_netherrack_iii",
+    "item": "compressed:netherrack_iii",
     "count": 1
   }
 }

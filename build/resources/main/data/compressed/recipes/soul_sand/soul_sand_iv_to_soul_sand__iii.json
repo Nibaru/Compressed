@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_soul_sand_iv"
+      "item": "compressed:soul_sand_iv"
     }
   ],
   "result": {
-    "item": "compressed:compressed_soul_sand_iii",
+    "item": "compressed:soul_sand_iii",
     "count": 9
   }
 }

@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_redstone_block_iv"
+      "item": "compressed:redstone_block_iv"
     }
   ],
   "result": {
-    "item": "compressed:compressed_redstone_block_iii",
+    "item": "compressed:redstone_block_iii",
     "count": 9
   }
 }

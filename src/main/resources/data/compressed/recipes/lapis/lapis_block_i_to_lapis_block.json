@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_lapis_block_i"
+      "item": "compressed:lapis_block_i"
     }
   ],
   "result": {

@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_coal_block_iii"
+      "item": "compressed:coal_block_iii"
     }
   ],
   "result": {
-    "item": "compressed:compressed_coal_block_ii",
+    "item": "compressed:coal_block_ii",
     "count": 9
   }
 }

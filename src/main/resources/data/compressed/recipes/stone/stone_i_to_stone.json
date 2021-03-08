@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_stone_i"
+      "item": "compressed:stone_i"
     }
   ],
   "result": {

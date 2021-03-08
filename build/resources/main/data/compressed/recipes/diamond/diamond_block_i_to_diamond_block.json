@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_diamond_block_i"
+      "item": "compressed:diamond_block_i"
     }
   ],
   "result": {

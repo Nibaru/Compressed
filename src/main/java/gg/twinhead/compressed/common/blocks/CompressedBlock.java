@@ -25,7 +25,9 @@ public class CompressedBlock extends BlockItem {
     public CompressedBlock(Block block, Properties properties){
         super(block, properties);
 
-        this.parts = block.getRegistryName().toString().split("_");
+        output = block.getRegistryName().toString().split(":");
+        String name = output[1];
+        parts  = name.split("_");
 
         if(parts[parts.length-1].equals("i")){
             blockSize = (int)Math.pow(9, 1);
@@ -42,13 +44,13 @@ public class CompressedBlock extends BlockItem {
         } else if(parts[parts.length-1].equals("v")){
             blockSize = (int)Math.pow(9, 5);
             properties.rarity(Rarity.EPIC);
+        } else{
+            blockSize = 1;
+            properties.rarity(Rarity.COMMON);
         }
 
-        parts = ArrayUtils.remove(parts, 0);
-        parts = ArrayUtils.remove(parts, parts.length-1);
 
-
-        blockName = String.join(" ", parts);
+        blockName = String.join("Compressed ", parts[0].substring(0, 1).toUpperCase() + parts[0].substring(1));
 
     }
 

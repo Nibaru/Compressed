@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "compressed:blocks/red_sand_i"
+  }
+}

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_gravel_i"
+      "item": "compressed:gravel_i"
     }
   ],
   "result": {

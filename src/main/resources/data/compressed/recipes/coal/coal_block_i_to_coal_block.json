@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_coal_block_i"
+      "item": "compressed:coal_block_i"
     }
   ],
   "result": {

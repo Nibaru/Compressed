@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_red_sand_i"
+      "item": "compressed:red_sand_i"
     }
   ],
   "result": {

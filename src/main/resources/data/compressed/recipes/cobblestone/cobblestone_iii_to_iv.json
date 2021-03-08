@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_cobblestone_iii"
+      "item": "compressed:cobblestone_iii"
     }
   },
   "result": {
-    "item": "compressed:compressed_cobblestone_iv",
+    "item": "compressed:cobblestone_iv",
     "count": 1
   }
 }

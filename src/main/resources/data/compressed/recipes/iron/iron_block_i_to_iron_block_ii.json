@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_iron_block_i"
+      "item": "compressed:iron_block_i"
     }
   },
   "result": {
-    "item": "compressed:compressed_iron_block_ii",
+    "item": "compressed:iron_block_ii",
     "count": 1
   }
 }

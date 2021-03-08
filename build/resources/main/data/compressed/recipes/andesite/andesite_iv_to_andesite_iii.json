@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_andesite_ii"
+      "item": "compressed:andesite_ii"
     }
   ],
   "result": {
-    "item": "compressed:compressed_andesite_i",
+    "item": "compressed:andesite_i",
     "count": 9
   }
 }

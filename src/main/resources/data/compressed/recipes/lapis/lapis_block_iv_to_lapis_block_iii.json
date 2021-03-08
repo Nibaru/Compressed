@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_lapis_block_iv"
+      "item": "compressed:lapis_block_iv"
     }
   ],
   "result": {
-    "item": "compressed:compressed_lapis_block_iii",
+    "item": "compressed:lapis_block_iii",
     "count": 9
   }
 }

@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_gold_block_iii"
+      "item": "compressed:gold_block_iii"
     }
   },
   "result": {
-    "item": "compressed:compressed_gold_block_iv",
+    "item": "compressed:gold_block_iv",
     "count": 1
   }
 }

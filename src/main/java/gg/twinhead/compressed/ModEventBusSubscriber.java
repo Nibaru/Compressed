@@ -1,5 +1,6 @@
 package gg.twinhead.compressed;
 
+import gg.twinhead.compressed.common.items.FuelItem;
 import gg.twinhead.compressed.common.blocks.CompressedBlock;
 import gg.twinhead.compressed.core.init.BlockInit;
 import net.minecraft.item.BlockItem;
@@ -20,10 +21,19 @@ public class ModEventBusSubscriber {
         final IForgeRegistry<Item> registry = event.getRegistry();
         BlockInit.BLOCKS.getEntries().stream().map(RegistryObject::get)
                 .forEach(block -> {
-                    final Item.Properties properties = new Item.Properties().group(Compressed.COMPRESSED_GROUP);
-                    final CompressedBlock blockItem = new CompressedBlock(block, properties);
+                  Item.Properties properties = new Item.Properties().group(Compressed.COMPRESSED_GROUP);
+                  CompressedBlock blockItem;
+                  if(block.getRegistryName().toString().contains("netherite")){
+                    properties.isImmuneToFire();
+                    blockItem = new CompressedBlock(block, properties);
                     blockItem.setRegistryName(block.getRegistryName());
                     registry.register(blockItem);
+                  }else {
+                    blockItem = new CompressedBlock(block, properties);
+                    blockItem.setRegistryName(block.getRegistryName());
+                    registry.register(blockItem);
+                  }
+
                 });
     }
 }

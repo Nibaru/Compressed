@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_emerald_block_i"
+      "item": "compressed:emerald_block_i"
     }
   ],
   "result": {

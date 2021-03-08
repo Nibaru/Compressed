@@ -1,4 +1,13 @@
 ======================
+v1.2 Rewrite
+  WARNING USERS MUST UNCRAFT COMPRESSED BLOCKS BEFORE UPGRADING TO VERSION 1.2 OLD ITEM TYPES HAVE BEEN REMOVED
+  - Changes
+    -Rewrote codebase to make it easier to add new blocks in the future
+    -Compressed coal blocks can now be used as furnace fuel
+  - Additions
+    -charcoal block + compressed variants
+      -can be used as furnace fuel
+======================
 v1.1.1 Bugfix
     - Fixed Crafting recipes for soul sand.
 ======================

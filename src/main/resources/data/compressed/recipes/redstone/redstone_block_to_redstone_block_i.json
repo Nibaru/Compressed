@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "compressed:compressed_redstone_block_i",
+    "item": "compressed:redstone_block_i",
     "count": 1
   }
 }

@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_end_stone_i"
+      "item": "compressed:end_stone_i"
     }
   },
   "result": {
-    "item": "compressed:compressed_end_stone_ii",
+    "item": "compressed:end_stone_ii",
     "count": 1
   }
 }

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_iron_block_i"
+      "item": "compressed:iron_block_i"
     }
   ],
   "result": {

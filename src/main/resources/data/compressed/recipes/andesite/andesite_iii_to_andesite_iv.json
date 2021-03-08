@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_andesite_iii"
+      "item": "compressed:andesite_iii"
     }
   },
   "result": {
-    "item": "compressed:compressed_andesite_iv",
+    "item": "compressed:andesite_iv",
     "count": 1
   }
 }

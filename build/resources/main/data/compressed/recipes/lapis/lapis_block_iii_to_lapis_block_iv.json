@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_lapis_block_iii"
+      "item": "compressed:lapis_block_iii"
     }
   },
   "result": {
-    "item": "compressed:compressed_lapis_block_iv",
+    "item": "compressed:lapis_block_iv",
     "count": 1
   }
 }

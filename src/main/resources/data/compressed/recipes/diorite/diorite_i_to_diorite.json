@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_diorite_i"
+      "item": "compressed:diorite_i"
     }
   ],
   "result": {

@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: Compressed
-Implementation-Version: 1.1.1
-Specification-Vendor: examplemodsareus
-Specification-Title: examplemod
-Implementation-Timestamp: 2021-03-03T16:39:50-0500
-Specification-Version: 1
-Implementation-Vendor: examplemodsareus
-

@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressed:compressed_gravel_iii"
+      "item": "compressed:gravel_iii"
     }
   ],
   "result": {
-    "item": "compressed:compressed_gravel_ii",
+    "item": "compressed:gravel_ii",
     "count": 9
   }
 }

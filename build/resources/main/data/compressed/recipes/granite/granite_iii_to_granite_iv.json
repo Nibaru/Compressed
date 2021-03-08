@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_granite_iii"
+      "item": "compressed:granite_iii"
     }
   },
   "result": {
-    "item": "compressed:compressed_granite_iv",
+    "item": "compressed:granite_iv",
     "count": 1
   }
 }

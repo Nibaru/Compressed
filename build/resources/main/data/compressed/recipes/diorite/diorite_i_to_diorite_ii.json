@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "compressed:compressed_diorite_i"
+      "item": "compressed:diorite_i"
     }
   },
   "result": {
-    "item": "compressed:compressed_diorite_ii",
+    "item": "compressed:diorite_ii",
     "count": 1
   }
 }

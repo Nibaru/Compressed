@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "compressed:blocks/redstone_block_iv"
+  }
+}
