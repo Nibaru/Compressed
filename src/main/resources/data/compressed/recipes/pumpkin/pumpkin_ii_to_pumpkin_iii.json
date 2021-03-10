@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:pumpkin_ii"}}, "result": {"item": "compressed:pumpkin_iii", "count": 1}}

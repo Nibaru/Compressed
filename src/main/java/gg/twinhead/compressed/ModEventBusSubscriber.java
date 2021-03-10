@@ -2,9 +2,7 @@ package gg.twinhead.compressed;
 
 import gg.twinhead.compressed.common.blocks.CompressedBlock;
 import gg.twinhead.compressed.core.init.BlockInit;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;

@@ -193,6 +193,58 @@ public class BlockInit {
                     .sound(SoundType.GROUND)));
     //End of Dirts
 
+    //Start of GRASS
+    public static final RegistryObject<Block> GRASS_BLOCK_I = BLOCKS.register("grass_block_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(1, 3)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> GRASS_BLOCK_II = BLOCKS.register("grass_block_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(2, 9)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> GRASS_BLOCK_III = BLOCKS.register("grass_block_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(3, 15)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> GRASS_BLOCK_IV = BLOCKS.register("grass_block_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(7, 35)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.PLANT)));
+    //End of GRASS
+
+    //Start of PODZOL
+    public static final RegistryObject<Block> PODZOL_I = BLOCKS.register("podzol_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(1, 3)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> PODZOL_II = BLOCKS.register("podzol_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(2, 9)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> PODZOL_III = BLOCKS.register("podzol_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(3, 15)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> PODZOL_IV = BLOCKS.register("podzol_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(7, 35)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.PLANT)));
+    //End of PODZOL
+
     //Start of Gravels
     public static final RegistryObject<Block> GRAVEL_I = BLOCKS.register("gravel_i", () ->
             new FallingBlock(AbstractBlock.Properties.create(Material.CLAY)
@@ -245,6 +297,36 @@ public class BlockInit {
                     .sound(SoundType.SAND)));
     //End of Sands
 
+    //START OF SANDSTONE
+    public static final RegistryObject<Block> SANDSTONE_I = BLOCKS.register("sandstone_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(3, 12)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SANDSTONE_II = BLOCKS.register("sandstone_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(4, 24)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SANDSTONE_III = BLOCKS.register("sandstone_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5, 48)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SANDSTONE_VI = BLOCKS.register("sandstone_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(6, 96)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+    //End of SANDSTONE
+
     //Start of Red Sands
     public static final RegistryObject<Block> RED_SAND_I = BLOCKS.register("red_sand_i", () ->
             new FallingBlock(AbstractBlock.Properties.create(Material.CLAY)
@@ -271,7 +353,35 @@ public class BlockInit {
                     .sound(SoundType.SAND)));
     //End of Red Sand
 
+    //START OF SANDSTONE
+    public static final RegistryObject<Block> RED_SANDSTONE_I = BLOCKS.register("red_sandstone_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(3, 12)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> RED_SANDSTONE_II = BLOCKS.register("red_sandstone_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(4, 24)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> RED_SANDSTONE_III = BLOCKS.register("red_sandstone_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5, 48)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> RED_SANDSTONE_VI = BLOCKS.register("red_sandstone_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(6, 96)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.STONE)));
+    //End of SANDSTONE
 
     //START OF Netherrack
     public static final RegistryObject<Block> NETHERRACK_I = BLOCKS.register("netherrack_i", () ->
@@ -335,9 +445,39 @@ public class BlockInit {
                     .harvestTool(ToolType.PICKAXE)
                     .harvestLevel(0)
                     .sound(SoundType.STONE)));
-    //End of Cobblestones
+    //End of BLACKSTONES
 
-    //Start of Dirts
+    //START OF BASALTS
+    public static final RegistryObject<Block> BASALT_I = BLOCKS.register("basalt_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(3, 10)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.BASALT)));
+
+    public static final RegistryObject<Block> BASALT_II = BLOCKS.register("basalt_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5, 25)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.BASALT)));
+
+    public static final RegistryObject<Block> BASALT_III = BLOCKS.register("basalt_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(7, 50)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.BASALT)));
+
+    public static final RegistryObject<Block> BASALT_VI = BLOCKS.register("basalt_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(10, 1000)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(0)
+                    .sound(SoundType.BASALT)));
+    //End of BASALTS
+
+    //Start of SOULSAND
     public static final RegistryObject<Block> SOUL_SAND_I = BLOCKS.register("soul_sand_i", () ->
             new Block(AbstractBlock.Properties.create(Material.CLAY)
                     .hardnessAndResistance(1, 3)
@@ -361,7 +501,33 @@ public class BlockInit {
                     .hardnessAndResistance(7, 35)
                     .harvestTool(ToolType.SHOVEL)
                     .sound(SoundType.SOUL_SAND)));
-    //End of Dirts
+    //End of SOULSAND
+
+    //Start of SOULSOIL
+    public static final RegistryObject<Block> SOUL_SOIL_I = BLOCKS.register("soul_soil_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(1, 3)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.SOUL_SOIL)));
+
+    public static final RegistryObject<Block> SOUL_SOIL_II = BLOCKS.register("soul_soil_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(2, 9)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.SOUL_SOIL)));
+
+    public static final RegistryObject<Block> SOUL_SOIL_III = BLOCKS.register("soul_soil_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(3, 15)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.SOUL_SOIL)));
+
+    public static final RegistryObject<Block> SOUL_SOIL_IV = BLOCKS.register("soul_soil_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(7, 35)
+                    .harvestTool(ToolType.SHOVEL)
+                    .sound(SoundType.SOUL_SOIL)));
+    //End of SOULSOIL
 
     //START OF End Stone
     public static final RegistryObject<Block> END_STONE_I = BLOCKS.register("end_stone_i", () ->
@@ -611,17 +777,28 @@ public class BlockInit {
                     .sound(SoundType.STONE)));
     //End of REDSTONE BLOCK
 
+
+    //Start of SNOW BLOCK
+    public static final RegistryObject<Block> SNOW_BLOCK_I = BLOCKS.register("snow_block_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(0.8f, 0.8f).harvestTool(ToolType.SHOVEL).harvestLevel(0).sound(SoundType.SNOW)));
+    public static final RegistryObject<Block> SNOW_BLOCK_II = BLOCKS.register("snow_block_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 1.5f).harvestTool(ToolType.SHOVEL).harvestLevel(0).sound(SoundType.SNOW)));
+    public static final RegistryObject<Block> SNOW_BLOCK_III = BLOCKS.register("snow_block_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3f, 3f).harvestTool(ToolType.SHOVEL).harvestLevel(0).sound(SoundType.SNOW)));
+    public static final RegistryObject<Block> SNOW_BLOCK_IV = BLOCKS.register("snow_block_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(4f, 4f).harvestTool(ToolType.SHOVEL).harvestLevel(0).sound(SoundType.SNOW)));
+
     //Start of CHARCOAL BLOCK
     public static final RegistryObject<Block> CHARCOAL_BLOCK = FUELBLOCKS.register("charcoal_block", () ->
-            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(9, 25).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(5, 6).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
     public static final RegistryObject<Block> CHARCOAL_BLOCK_I = FUELBLOCKS.register("charcoal_block_i", () ->
-            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(9, 25).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(6, 12).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
     public static final RegistryObject<Block> CHARCOAL_BLOCK_II = FUELBLOCKS.register("charcoal_block_ii", () ->
-            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(9, 25).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(7, 24).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
     public static final RegistryObject<Block> CHARCOAL_BLOCK_III = FUELBLOCKS.register("charcoal_block_iii", () ->
-            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(9, 25).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(8, 48).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
     public static final RegistryObject<Block> CHARCOAL_BLOCK_IV = FUELBLOCKS.register("charcoal_block_iv", () ->
-            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(9, 25).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(9, 96).harvestTool(ToolType.PICKAXE).harvestLevel(0).sound(SoundType.STONE)));
 
     //START OF COAL BLOCK
     public static final RegistryObject<Block> COAL_BLOCK_I = FUELBLOCKS.register("coal_block_i", () ->
@@ -651,5 +828,84 @@ public class BlockInit {
                     .harvestTool(ToolType.PICKAXE)
                     .harvestLevel(0)
                     .sound(SoundType.STONE)));
+
+    //Start of HAY BLOCK
+    public static final RegistryObject<Block> HAY_BLOCK_I = BLOCKS.register("hay_block_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                    .hardnessAndResistance(1, 3)
+                    .harvestTool(ToolType.HOE)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> HAY_BLOCK_II = BLOCKS.register("hay_block_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                    .hardnessAndResistance(2, 9)
+                    .harvestTool(ToolType.HOE)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> HAY_BLOCK_III = BLOCKS.register("hay_block_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                    .hardnessAndResistance(3, 15)
+                    .harvestTool(ToolType.HOE)
+                    .sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> HAY_BLOCK_IV = BLOCKS.register("hay_block_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                    .hardnessAndResistance(7, 35)
+                    .harvestTool(ToolType.HOE)
+                    .sound(SoundType.PLANT)));
+    //End of HAY BLOCK
+
+    //Start of PUMPKIN
+    public static final RegistryObject<Block> PUMPKIN_I = BLOCKS.register("pumpkin_i", () ->
+            new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                    .hardnessAndResistance(1, 3)
+                    .harvestTool(ToolType.AXE)
+                    .sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> PUMPKIN_II = BLOCKS.register("pumpkin_ii", () ->
+            new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                    .hardnessAndResistance(2, 9)
+                    .harvestTool(ToolType.AXE)
+                    .sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> PUMPKIN_III = BLOCKS.register("pumpkin_iii", () ->
+            new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                    .hardnessAndResistance(3, 15)
+                    .harvestTool(ToolType.AXE)
+                    .sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> PUMPKIN_IV = BLOCKS.register("pumpkin_iv", () ->
+            new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                    .hardnessAndResistance(7, 35)
+                    .harvestTool(ToolType.AXE)
+                    .sound(SoundType.WOOD)));
+    //End of PUMPKIN
+
+
+        //Start of MELON
+        public static final RegistryObject<Block> MELON_I = BLOCKS.register("melon_i", () ->
+                new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                        .hardnessAndResistance(1, 3)
+                        .harvestTool(ToolType.AXE)
+                        .sound(SoundType.WOOD)));
+
+        public static final RegistryObject<Block> MELON_II = BLOCKS.register("melon_ii", () ->
+                new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                        .hardnessAndResistance(2, 9)
+                        .harvestTool(ToolType.AXE)
+                        .sound(SoundType.WOOD)));
+
+        public static final RegistryObject<Block> MELON_III = BLOCKS.register("melon_iii", () ->
+                new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                        .hardnessAndResistance(3, 15)
+                        .harvestTool(ToolType.AXE)
+                        .sound(SoundType.WOOD)));
+
+        public static final RegistryObject<Block> MELON_IV = BLOCKS.register("melon_iv", () ->
+                new Block(AbstractBlock.Properties.create(Material.PLANTS)
+                        .hardnessAndResistance(7, 35)
+                        .harvestTool(ToolType.AXE)
+                        .sound(SoundType.WOOD)));
+        //End of MELON
 
 }

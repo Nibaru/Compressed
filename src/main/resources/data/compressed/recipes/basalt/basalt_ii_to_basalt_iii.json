@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:basalt_ii"}}, "result": {"item": "compressed:basalt_iii", "count": 1}}

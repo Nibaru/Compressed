@@ -1,6 +1,7 @@
 package gg.twinhead.compressed.common.blocks;
 
 
+import java.util.Arrays;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.util.ITooltipFlag;
@@ -8,11 +9,9 @@ import net.minecraft.client.util.InputMappings;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Rarity;
-import net.minecraft.util.StringUtils;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.World;
-import org.apache.commons.lang3.ArrayUtils;
 import org.lwjgl.glfw.GLFW;
 
 import javax.annotation.Nullable;
@@ -21,13 +20,13 @@ import java.util.List;
 public class CompressedBlock extends BlockItem {
     public String blockName;
     public int blockSize;
-    private String[] parts, output;
+    private String[] parts, output, blockArrayName;
     public CompressedBlock(Block block, Properties properties){
         super(block, properties);
 
         output = block.getRegistryName().toString().split(":");
         String name = output[1];
-        parts  = name.split("_");
+        parts = name.split("_");
 
         if(parts[parts.length-1].equals("i")){
             blockSize = (int)Math.pow(9, 1);
@@ -49,7 +48,8 @@ public class CompressedBlock extends BlockItem {
             properties.rarity(Rarity.COMMON);
         }
 
-
+        blockArrayName = Arrays.copyOf(parts, parts.length-1);
+        blockName = String.join(" ", blockArrayName);
         blockName = String.join("Compressed ", parts[0].substring(0, 1).toUpperCase() + parts[0].substring(1));
 
     }

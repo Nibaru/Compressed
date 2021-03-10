@@ -5,9 +5,22 @@ v1.2 Rewrite
     -Rewrote codebase to make it easier to add new blocks in the future
     -Compressed coal blocks can now be used as furnace fuel
   - Additions
-    -charcoal block + compressed variants
-      -can be used as furnace fuel
-    -blackstone compressed variants
+    -charcoal block
+    -can be used as furnace fuel
+    compressed variants of:
+    -charcoal block
+    -blackstone
+    -soul soil
+    -basalt
+    -sandstone
+    -red sandstone
+    -grass block
+    -podzol
+    -snow block
+    -pumpkin
+    -melon
+    -hay bale
+
 ======================
 v1.1.1 Bugfix
     - Fixed Crafting recipes for soul sand.

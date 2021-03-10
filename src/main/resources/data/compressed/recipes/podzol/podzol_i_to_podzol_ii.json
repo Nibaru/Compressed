@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:podzol_i"}}, "result": {"item": "compressed:podzol_ii", "count": 1}}
