@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:netherite_block_i",
+    "compressed:netherite_block_ii",
+    "compressed:netherite_block_iii",
+    "compressed:netherite_block_iv"
+  ]
+}

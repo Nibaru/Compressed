@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:slime_block_i",
+    "compressed:slime_block_ii",
+    "compressed:slime_block_iii",
+    "compressed:slime_block_iv"
+  ]
+}

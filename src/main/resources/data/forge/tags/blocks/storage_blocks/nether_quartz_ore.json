@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "compressed:nether_quartz_ore_i",
+        "compressed:nether_quartz_ore_ii",
+        "compressed:nether_quartz_ore_iii",
+        "compressed:nether_quartz_ore_iv"
+    ]
+}

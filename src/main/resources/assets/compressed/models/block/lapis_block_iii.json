@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "compressed:blocks/lapis_block_iii"
+  }
+}

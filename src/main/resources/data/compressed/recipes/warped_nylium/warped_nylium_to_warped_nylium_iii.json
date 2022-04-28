@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "minecraft:warped_nylium"}}, "result": {"item": "compressed:warped_nylium_i", "count": 1}}

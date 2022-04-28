@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:calcite_iii"}}, "result": {"item": "compressed:calcite_iv", "count": 1}}

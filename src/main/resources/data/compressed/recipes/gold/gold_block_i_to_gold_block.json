@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressed:gold_block_i"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_block",
+    "count": 9
+  }
+}

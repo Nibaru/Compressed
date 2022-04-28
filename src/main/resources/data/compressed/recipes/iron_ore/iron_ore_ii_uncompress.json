@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "compressed:iron_ore_ii"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "compressed:iron_ore_i"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compressed:diamond_block_iii"
+    }
+  },
+  "result": {
+    "item": "compressed:diamond_block_iv",
+    "count": 1
+  }
+}

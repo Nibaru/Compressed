@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "compressed:deepslate_redstone_ore_ii"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "compressed:deepslate_redstone_ore_i"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:magma_block_i",
+    "compressed:magma_block_ii",
+    "compressed:magma_block_iii",
+    "compressed:magma_block_iv"
+  ]
+}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:dried_kelp_block_i"}}, "result": {"item": "compressed:dried_kelp_block_ii", "count": 1}}

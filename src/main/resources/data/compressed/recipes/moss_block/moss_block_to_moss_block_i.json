@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "minecraft:moss_block"}}, "result": {"item": "compressed:moss_block_i", "count": 1}}

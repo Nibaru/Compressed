@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "compressed:deepslate_diamond_ore_iii"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "compressed:deepslate_diamond_ore_ii"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

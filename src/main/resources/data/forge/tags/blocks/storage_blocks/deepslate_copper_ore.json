@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "compressed:deepslate_copper_ore_i",
+        "compressed:deepslate_copper_ore_ii",
+        "compressed:deepslate_copper_ore_iii",
+        "compressed:deepslate_copper_ore_iv"
+    ]
+}

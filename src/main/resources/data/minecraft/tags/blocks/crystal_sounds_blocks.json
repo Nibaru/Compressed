@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "compressed:amethyst_block_i",
+        "compressed:amethyst_block_ii",
+        "compressed:amethyst_block_iii",
+        "compressed:amethyst_block_iv"
+    ]
+}

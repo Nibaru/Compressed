@@ -1,0 +1,1 @@
+{"type": "minecraft:block", "pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "compressed:dark_prismarine_iv"}], "conditions": [{"condition": "minecraft:survives_explosion"}]}]}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:soul_soil_ii"}}, "result": {"item": "compressed:soul_soil_iii", "count": 1}}

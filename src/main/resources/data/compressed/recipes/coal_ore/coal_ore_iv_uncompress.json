@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "compressed:coal_ore_iv"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "compressed:coal_ore_iii"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

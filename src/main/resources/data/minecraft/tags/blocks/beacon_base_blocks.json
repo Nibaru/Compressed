@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        "compressed:iron_block_i",
+        "compressed:iron_block_ii",
+        "compressed:iron_block_iii",
+        "compressed:iron_block_iv",
+        "compressed:gold_block_i",
+        "compressed:gold_block_ii",
+        "compressed:gold_block_iii",
+        "compressed:gold_block_iv",
+        "compressed:diamond_block_i",
+        "compressed:diamond_block_ii",
+        "compressed:diamond_block_iii",
+        "compressed:diamond_block_iv",
+        "compressed:emerald_block_i",
+        "compressed:emerald_block_ii",
+        "compressed:emerald_block_iii",
+        "compressed:emerald_block_iv",
+        "compressed:netherite_block_i",
+        "compressed:netherite_block_ii",
+        "compressed:netherite_block_iii",
+        "compressed:netherite_block_iv"
+    ]
+}

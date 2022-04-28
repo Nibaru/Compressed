@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:glowstone_i",
+    "compressed:glowstone_ii",
+    "compressed:glowstone_iii",
+    "compressed:glowstone_iv"
+  ]
+}

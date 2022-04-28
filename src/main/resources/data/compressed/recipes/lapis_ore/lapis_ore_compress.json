@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "minecraft:lapis_ore"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:lapis_ore_i"
+    },
+    "type": "minecraft:crafting_shaped"
+}

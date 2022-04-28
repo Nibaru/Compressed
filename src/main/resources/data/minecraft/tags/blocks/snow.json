@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "compressed:snow_block_i",
+        "compressed:snow_block_ii",
+        "compressed:snow_block_iii",
+        "compressed:snow_block_iv"
+    ]
+}

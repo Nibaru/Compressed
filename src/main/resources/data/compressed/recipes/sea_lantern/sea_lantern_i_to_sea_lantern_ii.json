@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:sea_lantern_i"}}, "result": {"item": "compressed:sea_lantern_ii", "count": 1}}

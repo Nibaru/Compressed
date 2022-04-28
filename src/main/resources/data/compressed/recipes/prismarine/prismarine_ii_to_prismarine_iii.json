@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:prismarine_ii"}}, "result": {"item": "compressed:prismarine_iii", "count": 1}}

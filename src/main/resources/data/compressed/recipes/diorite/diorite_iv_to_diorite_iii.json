@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressed:diorite_iv"
+    }
+  ],
+  "result": {
+    "item": "compressed:diorite_iii",
+    "count": 9
+  }
+}

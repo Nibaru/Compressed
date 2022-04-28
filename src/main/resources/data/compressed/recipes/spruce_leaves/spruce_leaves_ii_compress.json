@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "compressed:spruce_leaves_ii"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:spruce_leaves_iii"
+    },
+    "type": "minecraft:crafting_shaped"
+}

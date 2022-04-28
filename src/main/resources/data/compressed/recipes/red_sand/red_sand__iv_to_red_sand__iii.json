@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressed:red_sand_iv"
+    }
+  ],
+  "result": {
+    "item": "compressed:red_sand_iii",
+    "count": 9
+  }
+}

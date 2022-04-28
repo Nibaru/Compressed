@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "minecraft:copper_ore"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:copper_ore_i"
+    },
+    "type": "minecraft:crafting_shaped"
+}

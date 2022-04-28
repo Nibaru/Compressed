@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "minecraft:gray_concrete"}}, "result": {"item": "compressed:gray_concrete_i", "count": 1}}

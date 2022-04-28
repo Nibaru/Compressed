@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:raw_gold_block_i"}}, "result": {"item": "compressed:raw_gold_block_ii", "count": 1}}

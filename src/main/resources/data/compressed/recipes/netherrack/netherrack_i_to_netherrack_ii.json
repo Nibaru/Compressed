@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compressed:netherrack_i"
+    }
+  },
+  "result": {
+    "item": "compressed:netherrack_ii",
+    "count": 1
+  }
+}

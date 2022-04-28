@@ -1,0 +1,16 @@
+{
+    "variants": {
+      "axis=x": {
+        "model": "compressed:block/birch_log_ii_horizontal",
+        "x": 90,
+        "y": 90
+      },
+      "axis=y": {
+        "model": "compressed:block/birch_log_ii"
+      },
+      "axis=z": {
+        "model": "compressed:block/birch_log_ii_horizontal",
+        "x": 90
+      }
+    }
+  }

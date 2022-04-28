@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "compressed:acacia_log_ii"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:acacia_log_iii"
+    },
+    "type": "minecraft:crafting_shaped"
+}

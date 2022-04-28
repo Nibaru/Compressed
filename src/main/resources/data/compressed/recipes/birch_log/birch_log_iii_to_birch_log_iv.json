@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:birch_log_iii"}}, "result": {"item": "compressed:birch_log_iv", "count": 1}}

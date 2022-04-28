@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compressed:gold_block_iii"
+    }
+  },
+  "result": {
+    "item": "compressed:gold_block_iv",
+    "count": 1
+  }
+}

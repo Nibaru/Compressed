@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:end_stone_i",
+    "compressed:end_stone_ii",
+    "compressed:end_stone_iii",
+    "compressed:end_stone_iv"
+  ]
+}

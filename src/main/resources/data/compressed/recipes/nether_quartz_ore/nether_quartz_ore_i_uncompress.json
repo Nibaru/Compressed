@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "compressed:nether_quartz_ore_i"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "minecraft:nether_quartz_ore"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

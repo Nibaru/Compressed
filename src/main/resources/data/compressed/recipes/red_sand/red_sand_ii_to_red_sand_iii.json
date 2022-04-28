@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compressed:red_sand_ii"
+    }
+  },
+  "result": {
+    "item": "compressed:red_sand_iii",
+    "count": 1
+  }
+}

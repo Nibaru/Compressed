@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:pink_wool_ii"}}, "result": {"item": "compressed:pink_wool_iii", "count": 1}}

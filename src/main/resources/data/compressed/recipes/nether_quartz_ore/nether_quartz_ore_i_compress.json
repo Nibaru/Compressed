@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "compressed:nether_quartz_ore_i"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:nether_quartz_ore_ii"
+    },
+    "type": "minecraft:crafting_shaped"
+}

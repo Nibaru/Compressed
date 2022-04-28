@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "minecraft:coarse_dirt"}}, "result": {"item": "compressed:coarse_dirt_i", "count": 1}}

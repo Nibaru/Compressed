@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:nether_wart_block_i",
+    "compressed:nether_wart_block_ii",
+    "compressed:nether_wart_block_iii",
+    "compressed:nether_wart_block_iv"
+  ]
+}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:blackstone_iii"}}, "result": {"item": "compressed:blackstone_iv", "count": 1}}

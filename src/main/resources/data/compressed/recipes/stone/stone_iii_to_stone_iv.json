@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:stone_iii"}}, "result": {"item": "compressed:stone_iv", "count": 1}}

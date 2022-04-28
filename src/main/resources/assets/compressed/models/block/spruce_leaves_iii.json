@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/leaves",
+    "textures": {
+        "all": "compressed:blocks/spruce_leaves_iii"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:cobblestone_v",
+    "compressed:cobblestone_vi",
+    "compressed:cobblestone_vii",
+    "compressed:cobblestone_viii",
+    "compressed:cobblestone_ix"
+  ]
+}

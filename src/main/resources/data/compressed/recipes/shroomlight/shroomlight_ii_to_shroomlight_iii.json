@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:shroomlight_ii"}}, "result": {"item": "compressed:shroomlight_iii", "count": 1}}

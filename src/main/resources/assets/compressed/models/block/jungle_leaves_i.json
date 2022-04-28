@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/leaves",
+    "textures": {
+        "all": "compressed:blocks/jungle_leaves_i"
+    }
+}

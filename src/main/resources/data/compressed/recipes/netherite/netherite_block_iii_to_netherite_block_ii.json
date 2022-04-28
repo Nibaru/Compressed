@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressed:netherite_block_iii"
+    }
+  ],
+  "result": {
+    "item": "compressed:netherite_block_ii",
+    "count": 9
+  }
+}

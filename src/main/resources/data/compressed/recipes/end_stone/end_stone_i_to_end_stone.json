@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressed:end_stone_i"
+    }
+  ],
+  "result": {
+    "item": "minecraft:end_stone",
+    "count": 9
+  }
+}

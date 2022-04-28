@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "compressed:deepslate_lapis_ore_i",
+        "compressed:deepslate_lapis_ore_ii",
+        "compressed:deepslate_lapis_ore_iii",
+        "compressed:deepslate_lapis_ore_iv"
+    ]
+}
