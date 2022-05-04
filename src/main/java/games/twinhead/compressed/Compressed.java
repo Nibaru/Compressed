@@ -33,43 +33,10 @@ public class Compressed implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
 		RegisterBlocks.register();
 		RegisterItems.register();
-		Colors();
 	}
 
-	private void Colors(){
-		for(Map.Entry entry: RegisterBlocks.compressedLeaves.entrySet()){
-			ItemColorProvider itemColor = null;
-			BlockColorProvider blockColor = null;
-
-			if(entry.getKey().toString().contains("acacia")){
-				itemColor = (state, view) -> 0xaea42a;
-				blockColor = (state, view, pos, tintIndex) -> 0xaea42a;
-			} else if(entry.getKey().toString().contains("oak")){
-				itemColor = (state, view) -> 0x59ae30;
-				blockColor = (state, view, pos, tintIndex) -> 0x59ae30;
-			} else if(entry.getKey().toString().contains("jungle")){
-				itemColor = (state, view) -> 0x30bb0b;
-				blockColor = (state, view, pos, tintIndex) -> 0x30bb0b;
-			} else if(entry.getKey().toString().contains("dark_oak")){
-				itemColor = (state, view) -> 0x59AE30;
-				blockColor = (state, view, pos, tintIndex) -> 0x59AE30;
-			} else if(entry.getKey().toString().contains("spruce")){
-				itemColor = (state, view) -> 0x619961;
-				blockColor = (state, view, pos, tintIndex) -> 0x619961;
-			} else if(entry.getKey().toString().contains("birch")){
-				itemColor = (state, view) -> 0x80A755;
-				blockColor = (state, view, pos, tintIndex) -> 0x80A755;
-			}
-
-			ColorProviderRegistry.BLOCK.register(blockColor, (Block) entry.getValue());
-			ColorProviderRegistry.ITEM.register(itemColor, ((Block) entry.getValue()).asItem());
-		}
-	}
 	public static String intToRoman(int number){
 		return switch (number){
 			case 1 -> "i";

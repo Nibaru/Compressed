@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "games.twinhead.compressed.Compressed"
+    ],
+    "client": [
+      "games.twinhead.compressed.Client"
     ]
   },
   "mixins": [
