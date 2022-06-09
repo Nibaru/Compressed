@@ -6,7 +6,6 @@ import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.world.World;
 
 import java.util.Arrays;
@@ -28,13 +27,13 @@ public class CompressedBlockItem extends BlockItem {
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
         if(!Screen.hasShiftDown()){
-            tooltip.add(new TranslatableText("tooltip.compressed.shift"));
+            tooltip.add(Text.translatable("tooltip.compressed.shift"));
         } else {
-            tooltip.add(new TranslatableText("tooltip.compressed.stack", getNumberOfBlocks(itemStack), getFormattedName()));
+            tooltip.add(Text.translatable("tooltip.compressed.stack", getNumberOfBlocks(itemStack), getFormattedName()));
             if(burnTime > 0)
-                tooltip.add(new TranslatableText("tooltip.compressed.fuel", getCompressedBurnTime()));
+                tooltip.add(Text.translatable("tooltip.compressed.fuel", getCompressedBurnTime()));
             if(getCompression() > 4) //todo find out how to check if the block is in the tag wither_immume
-                tooltip.add(new TranslatableText("tooltip.compressed.witherproof"));
+                tooltip.add(Text.translatable("tooltip.compressed.witherproof"));
         }
     }
 
