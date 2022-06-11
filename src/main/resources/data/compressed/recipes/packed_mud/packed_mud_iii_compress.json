@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "compressed:packed_mud_iii"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:packed_mud_iv"
+    },
+    "type": "minecraft:crafting_shaped"
+}

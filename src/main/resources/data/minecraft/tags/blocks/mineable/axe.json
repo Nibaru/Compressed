@@ -32,6 +32,14 @@
         "compressed:crimson_stem_i",
         "compressed:crimson_stem_ii",
         "compressed:crimson_stem_iii",
-        "compressed:crimson_stem_iv"
+        "compressed:crimson_stem_iv",
+        "compressed:mangrove_log_i",
+        "compressed:mangrove_log_ii",
+        "compressed:mangrove_log_iii",
+        "compressed:mangrove_log_iv",
+        "compressed:mangrove_roots_i",
+        "compressed:mangrove_roots_ii",
+        "compressed:mangrove_roots_iii",
+        "compressed:mangrove_roots_iv"
     ]
 }

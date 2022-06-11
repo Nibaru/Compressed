@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "compressed:mangrove_roots_iv"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "compressed:mangrove_roots_iii"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

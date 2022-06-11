@@ -5,6 +5,9 @@ import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public enum CompressedBlocks {
     ACACIA_LOG(4, Blocks.ACACIA_LOG, 300),
     AMETHYST_BLOCK(4, Blocks.AMETHYST_BLOCK),
@@ -110,7 +113,17 @@ public enum CompressedBlocks {
     JUNGLE_LEAVES(4, Blocks.JUNGLE_LEAVES),
     DARK_OAK_LEAVES(4, Blocks.DARK_OAK_LEAVES),
     OAK_LEAVES(4, Blocks.OAK_LEAVES),
-    SPRUCE_LEAVES(4, Blocks.SPRUCE_LEAVES);
+    SPRUCE_LEAVES(4, Blocks.SPRUCE_LEAVES),
+    SCULK(4, Blocks.SCULK),
+    MANGROVE_LOG(4, Blocks.MANGROVE_LOG, 300),
+    MANGROVE_LEAVES(4, Blocks.MANGROVE_LEAVES),
+    MANGROVE_ROOTS(4, Blocks.MANGROVE_ROOTS),
+    MUD(4, Blocks.MUD),
+    MUD_BRICKS(4, Blocks.MUD_BRICKS),
+    PACKED_MUD(4, Blocks.PACKED_MUD),
+    GLASS(4, Blocks.GLASS)
+    ;
+
 
 
 
@@ -148,6 +161,10 @@ public enum CompressedBlocks {
         return burnTime;
     }
 
+    public int getBurnTime(int compression) {
+        return (int) ((Math.pow(9, compression)) * getBurnTime());
+    }
+
     public boolean isColorBlock() {
         return colorBlock;
     }
@@ -163,7 +180,8 @@ public enum CompressedBlocks {
                     SPRUCE_LOG,
                     BONE_BLOCK,
                     WARPED_STEM,
-                    BASALT-> new PillarBlock(FabricBlockSettings.copy(this.getCopyBlock()));
+                    BASALT,
+                    MANGROVE_LOG-> new PillarBlock(FabricBlockSettings.copy(this.getCopyBlock()));
             case SAND, GRAVEL, RED_SAND -> new FallingBlock(FabricBlockSettings.copy(this.getCopyBlock()));
             case HAY_BLOCK -> new HayBlock(FabricBlockSettings.copy(this.getCopyBlock()));
             case HONEY_BLOCK -> new HoneyBlock(FabricBlockSettings.copy(this.getCopyBlock()));
@@ -175,7 +193,9 @@ public enum CompressedBlocks {
                     BIRCH_LEAVES,
                     DARK_OAK_LEAVES,
                     OAK_LEAVES,
-                    SPRUCE_LEAVES-> new LeavesBlock(FabricBlockSettings.copy(this.getCopyBlock()).nonOpaque());
+                    SPRUCE_LEAVES,
+                    MANGROVE_LEAVES -> new LeavesBlock(FabricBlockSettings.copy(this.getCopyBlock()).nonOpaque());
+            case GLASS -> new GlassBlock(FabricBlockSettings.copy(this.getCopyBlock()).nonOpaque());
             default -> new Block(FabricBlockSettings.copy(this.getCopyBlock()));
         };
     }

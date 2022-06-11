@@ -26,6 +26,8 @@ public class Compressed implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final String MOD_ID = "compressed";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final String[] colorNames = new String[]{"white", "yellow", "black", "red", "purple", "pink", "orange", "magenta", "lime", "light_gray", "light_blue", "green", "gray", "cyan", "brown", "blue"};
+
 
 	public static final ItemGroup COMPRESSED_GROUP = FabricItemGroupBuilder.build(
 			new Identifier(MOD_ID, "blocks"),

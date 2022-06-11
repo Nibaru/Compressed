@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "compressed:mangrove_roots_iii"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:mangrove_roots_iv"
+    },
+    "type": "minecraft:crafting_shaped"
+}

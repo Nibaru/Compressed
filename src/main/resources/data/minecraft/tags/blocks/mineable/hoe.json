@@ -16,6 +16,10 @@
         "compressed:dried_kelp_block_i",
         "compressed:dried_kelp_block_ii",
         "compressed:dried_kelp_block_iii",
-        "compressed:dried_kelp_block_iv"
+        "compressed:dried_kelp_block_iv",
+        "compressed:sculk_i",
+        "compressed:sculk_ii",
+        "compressed:sculk_iii",
+        "compressed:sculk_iv"
     ]
 }

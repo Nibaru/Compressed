@@ -13,8 +13,8 @@ import java.util.List;
 
 public class CompressedBlockItem extends BlockItem {
 
-    private int burnTime = 0;
-    private String name;
+    private final int burnTime;
+    private final String name;
 
 
     public CompressedBlockItem(Block block, Settings settings, String name, int burnTime) {
@@ -29,10 +29,10 @@ public class CompressedBlockItem extends BlockItem {
         if(!Screen.hasShiftDown()){
             tooltip.add(Text.translatable("tooltip.compressed.shift"));
         } else {
-            tooltip.add(Text.translatable("tooltip.compressed.stack", getNumberOfBlocks(itemStack), getFormattedName()));
+            tooltip.add(Text.translatable("tooltip.compressed.stack", String.format("%.0f", getNumberOfBlocks(itemStack)) , getFormattedName()));
             if(burnTime > 0)
-                tooltip.add(Text.translatable("tooltip.compressed.fuel", getCompressedBurnTime()));
-            if(getCompression() > 4) //todo find out how to check if the block is in the tag wither_immume
+                tooltip.add(Text.translatable("tooltip.compressed.fuel", burnTime));
+            if(getCompression() > 4) //todo find out how to check if the block is in the tag wither_immune
                 tooltip.add(Text.translatable("tooltip.compressed.witherproof"));
         }
     }
@@ -50,7 +50,7 @@ public class CompressedBlockItem extends BlockItem {
             case "viii" -> 8;
             case "ix" -> 9;
             case "x" -> 10;
-            default ->  1;
+            default ->  0;
         };
     }
 
@@ -63,13 +63,13 @@ public class CompressedBlockItem extends BlockItem {
 
         StringBuilder finalName = new StringBuilder();
         for(String s: Arrays.copyOf(parts, parts.length-1)){
-            finalName.append(s.substring(0, 1).toUpperCase() + s.substring(1).toLowerCase() + " ");
+            finalName.append(s.substring(0, 1).toUpperCase()).append(s.substring(1).toLowerCase()).append(" ");
         }
         return finalName.toString();
     }
 
-    public int getNumberOfBlocks(ItemStack itemStack){
-        return (int) ((Math.pow(9, getCompression())) * itemStack.getCount());
+    public double getNumberOfBlocks(ItemStack itemStack){
+        return ((Math.pow(9, getCompression())) * itemStack.getCount());
     }
 
 

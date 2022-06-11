@@ -2,10 +2,12 @@ package games.twinhead.compressed;
 
 import games.twinhead.compressed.registry.RegisterBlocks;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.client.color.block.BlockColorProvider;
 import net.minecraft.client.color.item.ItemColorProvider;
+import net.minecraft.client.render.RenderLayer;
 
 import java.util.Map;
 
@@ -13,6 +15,7 @@ public class Client implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		Colors();
+		GlassTransparency();
 	}
 
 	private void Colors(){
@@ -38,10 +41,20 @@ public class Client implements ClientModInitializer {
 			} else if(entry.getKey().toString().contains("birch")){
 				itemColor = (state, view) -> 0x80A755;
 				blockColor = (state, view, pos, tintIndex) -> 0x80A755;
+			} else if(entry.getKey().toString().contains("mangrove")){
+				itemColor = (state, view) -> 0x8db127;
+				blockColor = (state, view, pos, tintIndex) -> 0x8db127;
 			}
 
 			ColorProviderRegistry.BLOCK.register(blockColor, (Block) entry.getValue());
 			ColorProviderRegistry.ITEM.register(itemColor, ((Block) entry.getValue()).asItem());
 		}
+	}
+
+	private void GlassTransparency(){
+		for (Map.Entry entry: RegisterBlocks.compressedGlass.entrySet()) {
+			BlockRenderLayerMap.INSTANCE.putBlock((Block) entry.getValue(), RenderLayer.getTranslucent());
+		}
+
 	}
 }

@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "compressed:packed_mud_iii"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "compressed:packed_mud_ii"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

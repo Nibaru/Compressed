@@ -166,6 +166,18 @@
         "#forge:storage_blocks/spruce_leaves",
         "#forge:storage_blocks/dark_oak_leaves",
         "#forge:storage_blocks/nether_quartz_ore",
-        "#forge:storage_blocks/nether_gold_ore"
+        "#forge:storage_blocks/nether_gold_ore",
+        "#forge:storage_blocks/sculk",
+        "#forge:storage_blocks/mangrove_log",
+        "#forge:storage_blocks/mangrove_log",
+        "#forge:storage_blocks/mangrove_log",
+        "#forge:storage_blocks/mangrove_leaves",
+        "#forge:storage_blocks/mud",
+        "#forge:storage_blocks/mud_bricks",
+        "#forge:storage_blocks/packed_mud",
+        "#forge:storage_blocks/mangrove_roots",
+        "#forge:storage_blocks/glass",
+        "#forge:storage_blocks/mangrove_roots",
+        "#forge:storage_blocks/mangrove_roots"
     ]
 }

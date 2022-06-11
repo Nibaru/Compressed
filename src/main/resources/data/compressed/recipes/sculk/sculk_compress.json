@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "minecraft:sculk"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:sculk_i"
+    },
+    "type": "minecraft:crafting_shaped"
+}

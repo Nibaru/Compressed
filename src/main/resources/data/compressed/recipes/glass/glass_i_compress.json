@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "compressed:glass_i"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "compressed:glass_ii"
+    },
+    "type": "minecraft:crafting_shaped"
+}
