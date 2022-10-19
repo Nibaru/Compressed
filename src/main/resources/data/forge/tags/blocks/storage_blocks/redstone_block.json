@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "compressed:redstone_block_i",
-    "compressed:redstone_block_ii",
-    "compressed:redstone_block_iii",
-    "compressed:redstone_block_iv"
-  ]
-}

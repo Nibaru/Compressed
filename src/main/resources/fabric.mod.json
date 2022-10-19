@@ -13,7 +13,7 @@
     "sources": ""
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/compressed/icon.png",
 
   "environment": "*",
@@ -23,16 +23,16 @@
     ],
     "client": [
       "games.twinhead.compressed.Client"
+    ],
+    "fabric-datagen": [
+      "games.twinhead.compressed.datagen.CompressedDatagen"
     ]
   },
-  "mixins": [
-    "compressed.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.19",
+    "minecraft": "1.19.2",
     "java": ">=17"
   },
   "suggests": {

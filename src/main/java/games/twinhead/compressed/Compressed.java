@@ -4,30 +4,18 @@ import games.twinhead.compressed.registry.RegisterBlocks;
 import games.twinhead.compressed.registry.RegisterItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.client.color.block.BlockColorProvider;
-import net.minecraft.client.color.item.ItemColorProvider;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.HashSet;
-import java.util.Map;
-
 import static net.minecraft.block.Blocks.COBBLESTONE;
 
 public class Compressed implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
+
 	public static final String MOD_ID = "compressed";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	public static final String[] colorNames = new String[]{"white", "yellow", "black", "red", "purple", "pink", "orange", "magenta", "lime", "light_gray", "light_blue", "green", "gray", "cyan", "brown", "blue"};
-
 
 	public static final ItemGroup COMPRESSED_GROUP = FabricItemGroupBuilder.build(
 			new Identifier(MOD_ID, "blocks"),

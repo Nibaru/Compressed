@@ -1,0 +1,287 @@
+package games.twinhead.compressed.block;
+
+import games.twinhead.compressed.Compressed;
+import games.twinhead.compressed.registry.RegisterBlocks;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.*;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.tag.BlockTags;
+import net.minecraft.tag.TagKey;
+
+public enum CompressedBlocks {
+    ACACIA_LOG(4, Blocks.ACACIA_LOG, 300, BlockTags.AXE_MINEABLE),
+    AMETHYST_BLOCK(4, Blocks.AMETHYST_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    ANDESITE(4, Blocks.ANDESITE, BlockTags.PICKAXE_MINEABLE),
+    BASALT(4, Blocks.BASALT, BlockTags.PICKAXE_MINEABLE),
+    BIRCH_LOG(4, Blocks.BIRCH_LOG, 300, BlockTags.AXE_MINEABLE),
+    BLACKSTONE(4, Blocks.BLACKSTONE, BlockTags.PICKAXE_MINEABLE),
+    BLUE_ICE(4, Blocks.BLUE_ICE, BlockTags.PICKAXE_MINEABLE),
+    BONE_BLOCK(4, Blocks.BONE_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    BRICKS(4, Blocks.BRICKS, BlockTags.PICKAXE_MINEABLE),
+    CALCITE(4, Blocks.CALCITE, BlockTags.PICKAXE_MINEABLE),
+    CHARCOAL_BLOCK(4, Blocks.COAL_BLOCK, 16000, BlockTags.PICKAXE_MINEABLE),
+    CLAY(4, Blocks.CLAY, BlockTags.SHOVEL_MINEABLE),
+    COAL_BLOCK(4, Blocks.COAL_BLOCK, 16000, BlockTags.PICKAXE_MINEABLE),
+    COARSE_DIRT(4, Blocks.COARSE_DIRT, BlockTags.SHOVEL_MINEABLE),
+    COBBLED_DEEPSLATE(4, Blocks.COBBLED_DEEPSLATE, BlockTags.PICKAXE_MINEABLE),
+    COBBLESTONE(9, Blocks.COBBLESTONE, BlockTags.PICKAXE_MINEABLE),
+    COPPER_BLOCK(4, Blocks.COPPER_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    CRIMSON_NYLIUM(4, Blocks.CRIMSON_NYLIUM, BlockTags.PICKAXE_MINEABLE),
+    CRIMSON_STEM(4, Blocks.CRIMSON_STEM, BlockTags.PICKAXE_MINEABLE),
+    DARK_OAK_LOG(4, Blocks.DARK_OAK_LOG, 300, BlockTags.AXE_MINEABLE),
+    DARK_PRISMARINE(4, Blocks.DARK_PRISMARINE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE(4, Blocks.DEEPSLATE, BlockTags.PICKAXE_MINEABLE),
+    DIAMOND_BLOCK(4, Blocks.DIAMOND_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    DIORITE(4, Blocks.DIORITE, BlockTags.PICKAXE_MINEABLE),
+    DIRT(4, Blocks.DIRT, BlockTags.SHOVEL_MINEABLE),
+    DRIED_KELP_BLOCK(4, Blocks.DRIED_KELP_BLOCK, 4000, BlockTags.HOE_MINEABLE),
+    DRIPSTONE_BLOCK(4, Blocks.DRIPSTONE_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    EMERALD_BLOCK(4, Blocks.EMERALD_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    END_STONE(4, Blocks.END_STONE, BlockTags.PICKAXE_MINEABLE),
+    GLOWSTONE(4, Blocks.GLOWSTONE),
+    GOLD_BLOCK(4, Blocks.GOLD_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    GRANITE(4, Blocks.GRANITE, BlockTags.PICKAXE_MINEABLE),
+    GRASS_BLOCK(4, Blocks.GRASS_BLOCK, BlockTags.SHOVEL_MINEABLE),
+    GRAVEL(4, Blocks.GRAVEL, BlockTags.SHOVEL_MINEABLE),
+    HAY_BLOCK(4, Blocks.HAY_BLOCK, BlockTags.HOE_MINEABLE),
+    HONEY_BLOCK(4, Blocks.HONEY_BLOCK),
+    HONEYCOMB_BLOCK(4, Blocks.HONEYCOMB_BLOCK),
+    IRON_BLOCK(4, Blocks.IRON_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    JUNGLE_LOG(4, Blocks.JUNGLE_LOG, 300),
+    LAPIS_BLOCK(4, Blocks.LAPIS_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    MAGMA_BLOCK(4, Blocks.MAGMA_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    MELON(4, Blocks.MELON, BlockTags.AXE_MINEABLE),
+    MOSS_BLOCK(4, Blocks.MOSS_BLOCK, BlockTags.HOE_MINEABLE),
+    MOSSY_COBBLESTONE(4, Blocks.MOSSY_COBBLESTONE, BlockTags.PICKAXE_MINEABLE),
+    MYCELIUM(4, Blocks.MYCELIUM, BlockTags.SHOVEL_MINEABLE),
+    NETHER_BRICKS(4, Blocks.NETHER_BRICKS, BlockTags.PICKAXE_MINEABLE),
+    NETHERITE_BLOCK(4, Blocks.NETHERITE_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    NETHER_WART_BLOCK(4, Blocks.NETHER_WART_BLOCK, BlockTags.HOE_MINEABLE),
+    NETHERRACK(4, Blocks.NETHERRACK, BlockTags.PICKAXE_MINEABLE),
+    OAK_LOG(4, Blocks.OAK_LOG, 300, BlockTags.AXE_MINEABLE),
+    OBSIDIAN(4, Blocks.OBSIDIAN, BlockTags.PICKAXE_MINEABLE),
+    OXIDIZED_COPPER(4, Blocks.OXIDIZED_COPPER, BlockTags.PICKAXE_MINEABLE),
+    PODZOL(4, Blocks.PODZOL, BlockTags.AXE_MINEABLE),
+    PRISMARINE(4, Blocks.PRISMARINE, BlockTags.PICKAXE_MINEABLE),
+    PUMPKIN(4, Blocks.PUMPKIN, BlockTags.AXE_MINEABLE),
+    QUARTZ_BLOCK(4, Blocks.QUARTZ_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    RAW_COPPER_BLOCK(4, Blocks.RAW_COPPER_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    RAW_GOLD_BLOCK(4, Blocks.RAW_GOLD_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    RAW_IRON_BLOCK(4, Blocks.RAW_IRON_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    RED_SAND(4, Blocks.RED_SAND, BlockTags.SHOVEL_MINEABLE),
+    RED_SANDSTONE(4, Blocks.RED_SANDSTONE, BlockTags.PICKAXE_MINEABLE),
+    REDSTONE_BLOCK(4, Blocks.REDSTONE_BLOCK, BlockTags.PICKAXE_MINEABLE),
+    ROOTED_DIRT(4, Blocks.ROOTED_DIRT, BlockTags.SHOVEL_MINEABLE),
+    SAND(4, Blocks.SAND, BlockTags.SHOVEL_MINEABLE),
+    SANDSTONE(4, Blocks.SANDSTONE, BlockTags.PICKAXE_MINEABLE),
+    SEA_LANTERN(4, Blocks.SEA_LANTERN),
+    SHROOMLIGHT(4, Blocks.SHROOMLIGHT, BlockTags.HOE_MINEABLE),
+    SLIME_BLOCK(4, Blocks.SLIME_BLOCK),
+    SNOW_BLOCK(4, Blocks.SNOW_BLOCK, BlockTags.SHOVEL_MINEABLE),
+    SOUL_SAND(4, Blocks.SOUL_SAND, BlockTags.SHOVEL_MINEABLE),
+    SOUL_SOIL(4, Blocks.SOUL_SOIL, BlockTags.SHOVEL_MINEABLE),
+    SPRUCE_LOG(4, Blocks.SPRUCE_LOG, BlockTags.AXE_MINEABLE),
+    STONE_BRICKS(4, Blocks.STONE_BRICKS, BlockTags.PICKAXE_MINEABLE),
+    STONE(4, Blocks.STONE, BlockTags.PICKAXE_MINEABLE),
+    TUFF(4, Blocks.TUFF, BlockTags.PICKAXE_MINEABLE),
+    WARPED_NYLIUM(4, Blocks.WARPED_NYLIUM, BlockTags.AXE_MINEABLE),
+    WARPED_STEM(4, Blocks.WARPED_STEM, BlockTags.AXE_MINEABLE),
+    WARPED_WART_BLOCK(4, Blocks.WARPED_WART_BLOCK, BlockTags.HOE_MINEABLE),
+    TERRACOTTA(4, Blocks.TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+
+    COAL_ORE(4, Blocks.COAL_ORE, BlockTags.PICKAXE_MINEABLE),
+    IRON_ORE(4, Blocks.IRON_ORE, BlockTags.PICKAXE_MINEABLE),
+    COPPER_ORE(4, Blocks.COPPER_ORE, BlockTags.PICKAXE_MINEABLE),
+    GOLD_ORE(4, Blocks.GOLD_ORE, BlockTags.PICKAXE_MINEABLE),
+    DIAMOND_ORE(4, Blocks.DIAMOND_ORE, BlockTags.PICKAXE_MINEABLE),
+    LAPIS_ORE(4, Blocks.LAPIS_ORE, BlockTags.PICKAXE_MINEABLE),
+    EMERALD_ORE(4, Blocks.EMERALD_ORE, BlockTags.PICKAXE_MINEABLE),
+    REDSTONE_ORE(4, Blocks.REDSTONE_ORE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE_COAL_ORE(4, Blocks.DEEPSLATE_COAL_ORE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE_IRON_ORE(4, Blocks.DEEPSLATE_IRON_ORE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE_COPPER_ORE(4, Blocks.DEEPSLATE_COPPER_ORE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE_GOLD_ORE(4, Blocks.DEEPSLATE_GOLD_ORE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE_DIAMOND_ORE(4, Blocks.DEEPSLATE_DIAMOND_ORE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE_LAPIS_ORE(4, Blocks.DEEPSLATE_LAPIS_ORE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE_REDSTONE_ORE(4, Blocks.DEEPSLATE_REDSTONE_ORE, BlockTags.PICKAXE_MINEABLE),
+    DEEPSLATE_EMERALD_ORE(4, Blocks.DEEPSLATE_EMERALD_ORE, BlockTags.PICKAXE_MINEABLE),
+    NETHER_QUARTZ_ORE(4, Blocks.NETHER_QUARTZ_ORE, BlockTags.PICKAXE_MINEABLE),
+    NETHER_GOLD_ORE(4, Blocks.NETHER_GOLD_ORE, BlockTags.PICKAXE_MINEABLE),
+    ACACIA_LEAVES(4, Blocks.ACACIA_LEAVES, BlockTags.HOE_MINEABLE),
+    BIRCH_LEAVES(4, Blocks.BIRCH_LEAVES, BlockTags.HOE_MINEABLE),
+    JUNGLE_LEAVES(4, Blocks.JUNGLE_LEAVES, BlockTags.HOE_MINEABLE),
+    DARK_OAK_LEAVES(4, Blocks.DARK_OAK_LEAVES, BlockTags.HOE_MINEABLE),
+    OAK_LEAVES(4, Blocks.OAK_LEAVES, BlockTags.HOE_MINEABLE),
+    SPRUCE_LEAVES(4, Blocks.SPRUCE_LEAVES, BlockTags.HOE_MINEABLE),
+    AZALEA_LEAVES(4, Blocks.AZALEA_LEAVES, BlockTags.HOE_MINEABLE),
+    FLOWERING_AZALEA_LEAVES(4, Blocks.FLOWERING_AZALEA_LEAVES, BlockTags.HOE_MINEABLE),
+    SCULK(4, Blocks.SCULK, BlockTags.HOE_MINEABLE),
+    MANGROVE_LOG(4, Blocks.MANGROVE_LOG, 300, BlockTags.AXE_MINEABLE),
+    MANGROVE_LEAVES(4, Blocks.MANGROVE_LEAVES, BlockTags.HOE_MINEABLE),
+    MANGROVE_ROOTS(4, Blocks.MANGROVE_ROOTS, BlockTags.AXE_MINEABLE),
+    MUD(4, Blocks.MUD, BlockTags.SHOVEL_MINEABLE),
+    MUD_BRICKS(4, Blocks.MUD_BRICKS, BlockTags.PICKAXE_MINEABLE),
+    PACKED_MUD(4, Blocks.PACKED_MUD, BlockTags.PICKAXE_MINEABLE),
+    GLASS(4, Blocks.GLASS),
+
+    WHITE_STAINED_GLASS(4, Blocks.WHITE_STAINED_GLASS),
+    YELLOW_STAINED_GLASS(4, Blocks.YELLOW_STAINED_GLASS),
+    BLACK_STAINED_GLASS (4, Blocks.BLACK_STAINED_GLASS),
+    RED_STAINED_GLASS(4, Blocks.RED_STAINED_GLASS),
+    PURPLE_STAINED_GLASS(4, Blocks.PURPLE_STAINED_GLASS),
+    PINK_STAINED_GLASS(4, Blocks.PINK_STAINED_GLASS),
+    ORANGE_STAINED_GLASS(4, Blocks.ORANGE_STAINED_GLASS),
+    MAGENTA_STAINED_GLASS(4, Blocks.MAGENTA_STAINED_GLASS),
+    LIME_STAINED_GLASS(4, Blocks.LIME_STAINED_GLASS),
+    LIGHT_GRAY_STAINED_GLASS(4, Blocks.LIGHT_GRAY_STAINED_GLASS),
+    LIGHT_BLUE_STAINED_GLASS(4, Blocks.LIGHT_BLUE_STAINED_GLASS),
+    GREEN_STAINED_GLASS(4, Blocks.GREEN_STAINED_GLASS),
+    GRAY_STAINED_GLASS(4, Blocks.GRAY_STAINED_GLASS),
+    CYAN_STAINED_GLASS(4, Blocks.CYAN_STAINED_GLASS),
+    BROWN_STAINED_GLASS(4, Blocks.BROWN_STAINED_GLASS),
+    BLUE_STAINED_GLASS(4, Blocks.BLUE_STAINED_GLASS),
+
+    WHITE_TERRACOTTA(4, Blocks.WHITE_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    YELLOW_TERRACOTTA(4, Blocks.YELLOW_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    BLACK_TERRACOTTA (4, Blocks.BLACK_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    RED_TERRACOTTA(4, Blocks.RED_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    PURPLE_TERRACOTTA(4, Blocks.PURPLE_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    PINK_TERRACOTTA(4, Blocks.PINK_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    ORANGE_TERRACOTTA(4, Blocks.ORANGE_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    MAGENTA_TERRACOTTA(4, Blocks.MAGENTA_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    LIME_TERRACOTTA(4, Blocks.LIME_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    LIGHT_GRAY_TERRACOTTA(4, Blocks.LIGHT_GRAY_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    LIGHT_BLUE_TERRACOTTA(4, Blocks.LIGHT_BLUE_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    GREEN_TERRACOTTA(4, Blocks.GREEN_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    GRAY_TERRACOTTA(4, Blocks.GRAY_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    CYAN_TERRACOTTA(4, Blocks.CYAN_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    BROWN_TERRACOTTA(4, Blocks.BROWN_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+    BLUE_TERRACOTTA(4, Blocks.BLUE_TERRACOTTA, BlockTags.PICKAXE_MINEABLE),
+
+    WHITE_CONCRETE(4, Blocks.WHITE_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    YELLOW_CONCRETE(4, Blocks.YELLOW_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    BLACK_CONCRETE (4, Blocks.BLACK_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    RED_CONCRETE(4, Blocks.RED_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    PURPLE_CONCRETE(4, Blocks.PURPLE_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    PINK_CONCRETE(4, Blocks.PINK_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    ORANGE_CONCRETE(4, Blocks.ORANGE_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    MAGENTA_CONCRETE(4, Blocks.MAGENTA_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    LIME_CONCRETE(4, Blocks.LIME_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    LIGHT_GRAY_CONCRETE(4, Blocks.LIGHT_GRAY_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    LIGHT_BLUE_CONCRETE(4, Blocks.LIGHT_BLUE_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    GREEN_CONCRETE(4, Blocks.GREEN_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    GRAY_CONCRETE(4, Blocks.GRAY_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    CYAN_CONCRETE(4, Blocks.CYAN_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    BROWN_CONCRETE(4, Blocks.BROWN_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+    BLUE_CONCRETE(4, Blocks.BLUE_CONCRETE, BlockTags.PICKAXE_MINEABLE),
+
+    WHITE_CONCRETE_POWDER(4, Blocks.WHITE_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    YELLOW_CONCRETE_POWDER(4, Blocks.YELLOW_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    BLACK_CONCRETE_POWDER (4, Blocks.BLACK_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    RED_CONCRETE_POWDER(4, Blocks.RED_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    PURPLE_CONCRETE_POWDER(4, Blocks.PURPLE_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    PINK_CONCRETE_POWDER(4, Blocks.PINK_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    ORANGE_CONCRETE_POWDER(4, Blocks.ORANGE_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    MAGENTA_CONCRETE_POWDER(4, Blocks.MAGENTA_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    LIME_CONCRETE_POWDER(4, Blocks.LIME_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    LIGHT_GRAY_CONCRETE_POWDER(4, Blocks.LIGHT_GRAY_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    LIGHT_BLUE_CONCRETE_POWDER(4, Blocks.LIGHT_BLUE_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    GREEN_CONCRETE_POWDER(4, Blocks.GREEN_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    GRAY_CONCRETE_POWDER(4, Blocks.GRAY_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    CYAN_CONCRETE_POWDER(4, Blocks.CYAN_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    BROWN_CONCRETE_POWDER(4, Blocks.BROWN_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+    BLUE_CONCRETE_POWDER(4, Blocks.BLUE_CONCRETE_POWDER, BlockTags.SHOVEL_MINEABLE),
+
+    WHITE_WOOL(4, Blocks.WHITE_WOOL, BlockTags.WOOL),
+    YELLOW_WOOL(4, Blocks.YELLOW_WOOL, BlockTags.WOOL),
+    BLACK_WOOL (4, Blocks.BLACK_WOOL, BlockTags.WOOL),
+    RED_WOOL(4, Blocks.RED_WOOL, BlockTags.WOOL),
+    PURPLE_WOOL(4, Blocks.PURPLE_WOOL, BlockTags.WOOL),
+    PINK_WOOL(4, Blocks.PINK_WOOL, BlockTags.WOOL),
+    ORANGE_WOOL(4, Blocks.ORANGE_WOOL, BlockTags.WOOL),
+    MAGENTA_WOOL(4, Blocks.MAGENTA_WOOL, BlockTags.WOOL),
+    LIME_WOOL(4, Blocks.LIME_WOOL, BlockTags.WOOL),
+    LIGHT_GRAY_WOOL(4, Blocks.LIGHT_GRAY_WOOL, BlockTags.WOOL),
+    LIGHT_BLUE_WOOL(4, Blocks.LIGHT_BLUE_WOOL, BlockTags.WOOL),
+    GREEN_WOOL(4, Blocks.GREEN_WOOL, BlockTags.WOOL),
+    GRAY_WOOL(4, Blocks.GRAY_WOOL, BlockTags.WOOL),
+    CYAN_WOOL(4, Blocks.CYAN_WOOL, BlockTags.WOOL),
+    BROWN_WOOL(4, Blocks.BROWN_WOOL, BlockTags.WOOL),
+    BLUE_WOOL(4, Blocks.BLUE_WOOL, BlockTags.WOOL),
+    ;
+
+
+
+
+    private final int compression;
+    private final Block block;
+    private int burnTime;
+    private TagKey<Block> tooltag;
+
+    CompressedBlocks(int compression, Block block){
+        this.compression = compression;
+        this.block = block;
+    }
+
+    CompressedBlocks(int compression, Block block, TagKey<Block> tooltag){
+        this.compression = compression;
+        this.block = block;
+        this.tooltag = tooltag;
+    }
+
+    CompressedBlocks(int compression, Block block, int burnTime){
+        this.compression = compression;
+        this.block = block;
+        this.burnTime = burnTime;
+    }
+    CompressedBlocks(int compression, Block block, int burnTime, TagKey<Block> tooltag){
+        this.compression = compression;
+        this.block = block;
+        this.burnTime = burnTime;
+        this.tooltag = tooltag;
+
+    }
+
+    public TagKey<Block> getTooltag(){
+        return this.tooltag;
+    }
+
+    public int getCompression(){
+        return this.compression;
+    }
+
+    public Block getCopyBlock() {
+        return block;
+    }
+
+    public int getBurnTime() {
+        return burnTime;
+    }
+
+    public int getBurnTime(int compression) {
+        return (int) ((Math.pow(9, compression)) * getBurnTime());
+    }
+
+    public Block getBlock(int compression) {
+        return RegisterBlocks.compressedBlocks.get(this.getName(compression));
+    }
+
+    public Block getWitherProofBlock(){
+        return new Block(FabricBlockSettings.copy(this.getCopyBlock()).strength(2, 5000));
+    }
+
+
+    public Item getItem(int compression){
+        Item.Settings settings = new Item.Settings().group(Compressed.COMPRESSED_GROUP);
+        return new BlockItem(this.getBlock(compression), settings);
+    }
+
+    public String getName(int compression){
+        return this.toString().toLowerCase() + "_" + Compressed.intToRoman(compression);
+    }
+
+    public int getLuminance() {
+        return this.getCopyBlock().getDefaultState().getLuminance();
+    }
+}

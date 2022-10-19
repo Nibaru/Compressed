@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "minecraft:red_wool"}}, "result": {"item": "compressed:red_wool_i", "count": 1}}

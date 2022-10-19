@@ -1,8 +1,8 @@
 package games.twinhead.compressed.registry;
 
 import games.twinhead.compressed.Compressed;
-import games.twinhead.compressed.CompressedBlockItem;
-import games.twinhead.compressed.CompressedBlocks;
+import games.twinhead.compressed.block.CompressedBlockItem;
+import games.twinhead.compressed.block.CompressedBlocks;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.*;
@@ -14,52 +14,78 @@ import net.minecraft.util.registry.Registry;
 import java.util.HashMap;
 
 public class RegisterBlocks {
-    public static final String[] colorNames = new String[]{"white", "yellow", "black", "red", "purple", "pink", "orange", "magenta", "lime", "light_gray", "light_blue", "green", "gray", "cyan", "brown", "blue"};
+    public static HashMap<String, Block> compressedBlocks = new HashMap<>();
 
-    public static HashMap<String, Block> compressedLeaves = new HashMap<>();
-    public static HashMap<String, Block> compressedGlass = new HashMap<>();
+    private static void registerBlock(String name, Block block, int burnTime) {
 
+        Registry.register(Registry.BLOCK, new Identifier(Compressed.MOD_ID, name), block);
 
-    private static void registerBlock(String name, AbstractBlock block, int burnTime) {
-
-        Registry.register(Registry.BLOCK, new Identifier(Compressed.MOD_ID, name),(Block) block);
+        compressedBlocks.put(name, block);
 
         Item.Settings settings = new Item.Settings().group(Compressed.COMPRESSED_GROUP);
-        BlockItem item = new CompressedBlockItem((Block) block, settings, name, burnTime);
+        BlockItem item = new CompressedBlockItem(block, settings, name, burnTime);
 
         if(burnTime > 0)
             FuelRegistry.INSTANCE.add(item, burnTime);
 
         RegisterItems.registerItem(name, item);
-
-        if(name.contains("leaves"))
-            compressedLeaves.put(name, (Block) block);
-
-        if(name.contains("glass"))
-            compressedGlass.put(name, (Block) block);
-
     }
 
-    private static void registerCompressedBlocks(){
+    public static void registerBlocks(){
         registerBlock("charcoal_block", new Block(FabricBlockSettings.copyOf(Blocks.COAL_BLOCK)), 16000);
 
-        for (CompressedBlocks block : CompressedBlocks.values()) {
-            for (int i = 0; i < block.getCompression(); i++) {
-                if(block.isColorBlock()){
-                    for (int j = 0; j < colorNames.length; j++)
-                        registerBlock(colorNames[j] +"_"+ block.getName(i+1), block.getColorBlock(), block.getBurnTime(i));
-                }else{
-                    if(i>4){
-                        registerBlock(block.getName(i+1), block.getWitherProofBlock(), (9 * (i+1)) * block.getBurnTime(i));
-                    } else {
-                        registerBlock(block.getName(i+1), block.getBlock(), (9 * (i+1)) * block.getBurnTime(i));
-                    }
-                }
+        for (CompressedBlocks compressedBlock : CompressedBlocks.values()) {
+            for (int i = 0; i < compressedBlock.getCompression(); i++) {
+                Block block = switch (compressedBlock){
+                    case ACACIA_LOG,
+                            BIRCH_LOG,
+                            CRIMSON_STEM,
+                            DARK_OAK_LOG,
+                            JUNGLE_LOG,
+                            OAK_LOG,
+                            SPRUCE_LOG,
+                            BONE_BLOCK,
+                            WARPED_STEM,
+                            BASALT,
+                            MANGROVE_LOG -> new PillarBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    case SAND, GRAVEL, RED_SAND -> new FallingBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    case HAY_BLOCK -> new HayBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    case HONEY_BLOCK -> new HoneyBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    case SLIME_BLOCK -> new SlimeBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    case MAGMA_BLOCK -> new MagmaBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    case REDSTONE_BLOCK -> new RedstoneBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    case REDSTONE_ORE, DEEPSLATE_REDSTONE_ORE -> new RedstoneOreBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    case GLASS,
+                        WHITE_STAINED_GLASS,
+                        YELLOW_STAINED_GLASS,
+                        BLACK_STAINED_GLASS,
+                        RED_STAINED_GLASS,
+                        PURPLE_STAINED_GLASS,
+                        PINK_STAINED_GLASS,
+                        ORANGE_STAINED_GLASS,
+                        MAGENTA_STAINED_GLASS,
+                        LIME_STAINED_GLASS,
+                        LIGHT_GRAY_STAINED_GLASS,
+                        LIGHT_BLUE_STAINED_GLASS,
+                        GREEN_STAINED_GLASS,
+                        GRAY_STAINED_GLASS,
+                        CYAN_STAINED_GLASS,
+                        BROWN_STAINED_GLASS,
+                        BLUE_STAINED_GLASS
+                            -> new GlassBlock(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                    default -> new Block(FabricBlockSettings.copyOf(compressedBlock.getCopyBlock()).luminance((j) -> compressedBlock.getLuminance()));
+                };
+                registerBlock(compressedBlock.getName(i+1), block, (9 * (i+1)) * compressedBlock.getBurnTime(i));
+
             }
+
         }
     }
+
+
+
     public static void register(){
-        registerCompressedBlocks();
+        registerBlocks();
 
     }
 }

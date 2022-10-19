@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/cube_column_horizontal",
-    "textures": {
-      "end": "compressed:blocks/warped_stem_top_i",
-      "side": "compressed:blocks/warped_stem_i"
-    }
-  }

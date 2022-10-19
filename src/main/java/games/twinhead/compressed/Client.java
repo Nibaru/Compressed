@@ -1,15 +1,16 @@
 package games.twinhead.compressed;
 
-import games.twinhead.compressed.registry.RegisterBlocks;
+import games.twinhead.compressed.block.CompressedBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
-import net.minecraft.block.Block;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.color.block.BlockColorProvider;
 import net.minecraft.client.color.item.ItemColorProvider;
+import net.minecraft.client.color.world.BiomeColors;
+import net.minecraft.client.color.world.FoliageColors;
+import net.minecraft.client.color.world.GrassColors;
 import net.minecraft.client.render.RenderLayer;
-
-import java.util.Map;
 
 public class Client implements ClientModInitializer {
 	@Override
@@ -19,41 +20,54 @@ public class Client implements ClientModInitializer {
 	}
 
 	private void Colors(){
-		for(Map.Entry entry: RegisterBlocks.compressedLeaves.entrySet()){
+		for (CompressedBlocks compressedBlock: CompressedBlocks.values()) {
 			ItemColorProvider itemColor = null;
 			BlockColorProvider blockColor = null;
 
-			if(entry.getKey().toString().contains("acacia")){
-				itemColor = (state, view) -> 0xaea42a;
-				blockColor = (state, view, pos, tintIndex) -> 0xaea42a;
-			} else if(entry.getKey().toString().contains("oak")){
-				itemColor = (state, view) -> 0x59ae30;
-				blockColor = (state, view, pos, tintIndex) -> 0x59ae30;
-			} else if(entry.getKey().toString().contains("jungle")){
-				itemColor = (state, view) -> 0x30bb0b;
-				blockColor = (state, view, pos, tintIndex) -> 0x30bb0b;
-			} else if(entry.getKey().toString().contains("dark_oak")){
-				itemColor = (state, view) -> 0x59AE30;
-				blockColor = (state, view, pos, tintIndex) -> 0x59AE30;
-			} else if(entry.getKey().toString().contains("spruce")){
-				itemColor = (state, view) -> 0x619961;
-				blockColor = (state, view, pos, tintIndex) -> 0x619961;
-			} else if(entry.getKey().toString().contains("birch")){
-				itemColor = (state, view) -> 0x80A755;
-				blockColor = (state, view, pos, tintIndex) -> 0x80A755;
-			} else if(entry.getKey().toString().contains("mangrove")){
-				itemColor = (state, view) -> 0x8db127;
-				blockColor = (state, view, pos, tintIndex) -> 0x8db127;
+			switch (compressedBlock){
+				case OAK_LEAVES,
+						JUNGLE_LEAVES,
+						ACACIA_LEAVES,
+						DARK_OAK_LEAVES,
+						MANGROVE_LEAVES
+								-> {
+					blockColor = ((state, world, pos, tintIndex) ->
+							world != null && pos != null ? BiomeColors.getFoliageColor(world, pos) : FoliageColors.getDefaultColor());
+					itemColor = (stack, tintIndex) -> FoliageColors.getDefaultColor();
+
+				}
+				case SPRUCE_LEAVES -> {
+					blockColor =(state, world, pos, tintIndex) -> FoliageColors.getSpruceColor();
+					itemColor = (stack, tintIndex) -> FoliageColors.getSpruceColor();
+				}
+				case BIRCH_LEAVES -> {
+					blockColor =(state, world, pos, tintIndex) -> FoliageColors.getBirchColor();
+					itemColor = (stack, tintIndex) -> FoliageColors.getSpruceColor();
+				}
+				case GRASS_BLOCK -> {
+					blockColor = (state, world, pos, tintIndex) -> world != null && pos != null ? BiomeColors.getGrassColor(world, pos) : GrassColors.getColor(0.5, 1.0);
+					itemColor = (stack, tintIndex) -> GrassColors.getColor(0.5, 1.0);
+				}
 			}
 
-			ColorProviderRegistry.BLOCK.register(blockColor, (Block) entry.getValue());
-			ColorProviderRegistry.ITEM.register(itemColor, ((Block) entry.getValue()).asItem());
+			for (int i = 0; i < compressedBlock.getCompression(); i++) {
+				if(!FabricLoader.getInstance().isModLoaded("sodium")){
+					ColorProviderRegistry.BLOCK.register(blockColor, compressedBlock.getBlock(i+1));
+					ColorProviderRegistry.ITEM.register(itemColor, compressedBlock.getBlock(i+1).asItem());
+				}
+			}
+
 		}
+
+
+
 	}
 
 	private void GlassTransparency(){
-		for (Map.Entry entry: RegisterBlocks.compressedGlass.entrySet()) {
-			BlockRenderLayerMap.INSTANCE.putBlock((Block) entry.getValue(), RenderLayer.getTranslucent());
+		for (CompressedBlocks compressedBlock: CompressedBlocks.values()) {
+			for (int i = 0; i < compressedBlock.getCompression(); i++) {
+				BlockRenderLayerMap.INSTANCE.putBlock(compressedBlock.getBlock(i + 1), RenderLayer.getTranslucent());
+			}
 		}
 
 	}
