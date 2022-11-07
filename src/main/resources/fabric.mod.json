@@ -13,7 +13,7 @@
     "sources": ""
   },
 
-  "license": "MIT",
+  "license": "LGPL-3",
   "icon": "assets/compressed/icon.png",
 
   "environment": "*",
