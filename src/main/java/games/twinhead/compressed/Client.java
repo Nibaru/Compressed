@@ -15,7 +15,9 @@ import net.minecraft.client.render.RenderLayer;
 public class Client implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		Colors();
+
+		if(!FabricLoader.getInstance().isModLoaded("sodium"))
+			Colors();
 		GlassTransparency();
 	}
 
@@ -51,10 +53,8 @@ public class Client implements ClientModInitializer {
 			}
 
 			for (int i = 0; i < compressedBlock.getCompression(); i++) {
-				if(!FabricLoader.getInstance().isModLoaded("sodium")){
 					ColorProviderRegistry.BLOCK.register(blockColor, compressedBlock.getBlock(i+1));
 					ColorProviderRegistry.ITEM.register(itemColor, compressedBlock.getBlock(i+1).asItem());
-				}
 			}
 
 		}
