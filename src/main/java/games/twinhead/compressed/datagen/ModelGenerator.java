@@ -3,7 +3,7 @@ package games.twinhead.compressed.datagen;
 import games.twinhead.compressed.Compressed;
 import games.twinhead.compressed.block.CompressedBlocks;
 import games.twinhead.compressed.registry.RegisterBlocks;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
 import net.minecraft.util.Identifier;
@@ -11,8 +11,8 @@ import net.minecraft.util.Identifier;
 import java.util.Optional;
 
 public class ModelGenerator extends FabricModelProvider {
-    public ModelGenerator(FabricDataGenerator dataGenerator) {
-        super(dataGenerator);
+    public ModelGenerator(FabricDataOutput data) {
+        super(data);
     }
 
     @Override
@@ -54,7 +54,7 @@ public class ModelGenerator extends FabricModelProvider {
                             registerGrass(blockStateModelGenerator, block, i+1);
                     case MANGROVE_ROOTS -> registerRoots(blockStateModelGenerator, block, i+1);
                 default -> registerCubeAll(blockStateModelGenerator, block, i+1);
-            };
+            }
             }
         }
     }

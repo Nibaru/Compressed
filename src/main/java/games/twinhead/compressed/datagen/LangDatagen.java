@@ -3,18 +3,18 @@ package games.twinhead.compressed.datagen;
 import games.twinhead.compressed.Compressed;
 import games.twinhead.compressed.block.CompressedBlocks;
 import games.twinhead.compressed.registry.RegisterBlocks;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 
 public class LangDatagen extends FabricLanguageProvider {
 
-    protected LangDatagen(FabricDataGenerator dataGenerator) {
-        super(dataGenerator);
+    protected LangDatagen(FabricDataOutput data) {
+        super(data);
     }
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
-        translationBuilder.add(Compressed.COMPRESSED_GROUP, "Compressed Blocks");
+        translationBuilder.add("itemGroup.compressed.compressed_blocks", "Compressed Blocks");
         translationBuilder.add(RegisterBlocks.compressedBlocks.get("charcoal_block"), "Charcoal Block");
         translationBuilder.add("tooltip.compressed.fuel", "Burns for %d ticks");
         translationBuilder.add("tooltip.compressed.shift", "\u00a77Hold\u00a77 \u00a7eShift");

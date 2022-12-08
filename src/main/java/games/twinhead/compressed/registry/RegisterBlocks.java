@@ -1,15 +1,16 @@
 package games.twinhead.compressed.registry;
 
 import games.twinhead.compressed.Compressed;
+import games.twinhead.compressed.block.CompactorBlock;
 import games.twinhead.compressed.block.CompressedBlockItem;
 import games.twinhead.compressed.block.CompressedBlocks;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.*;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 import java.util.HashMap;
 
@@ -18,12 +19,11 @@ public class RegisterBlocks {
 
     private static void registerBlock(String name, Block block, int burnTime) {
 
-        Registry.register(Registry.BLOCK, new Identifier(Compressed.MOD_ID, name), block);
+        Registry.register(Registries.BLOCK, new Identifier(Compressed.MOD_ID, name), block);
 
         compressedBlocks.put(name, block);
 
-        Item.Settings settings = new Item.Settings().group(Compressed.COMPRESSED_GROUP);
-        BlockItem item = new CompressedBlockItem(block, settings, name, burnTime);
+        Item item = new CompressedBlockItem(block, new Item.Settings(), name, burnTime);
 
         if(burnTime > 0)
             FuelRegistry.INSTANCE.add(item, burnTime);
@@ -32,6 +32,7 @@ public class RegisterBlocks {
     }
 
     public static void registerBlocks(){
+        registerBlock("compactor", new CompactorBlock(FabricBlockSettings.copyOf(Blocks.DISPENSER)), 0);
         registerBlock("charcoal_block", new Block(FabricBlockSettings.copyOf(Blocks.COAL_BLOCK)), 16000);
 
         for (CompressedBlocks compressedBlock : CompressedBlocks.values()) {

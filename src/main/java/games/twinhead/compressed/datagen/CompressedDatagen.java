@@ -7,10 +7,12 @@ public class CompressedDatagen implements DataGeneratorEntrypoint {
 
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
-        fabricDataGenerator.addProvider(ModelGenerator::new);
-        fabricDataGenerator.addProvider(LootTableGenerator::new);
-        fabricDataGenerator.addProvider(LangDatagen::new);
-        fabricDataGenerator.addProvider(RecipeGenerator::new);
-        fabricDataGenerator.addProvider(TagGenerator::new);
+        FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
+
+        pack.addProvider(ModelGenerator::new);
+        pack.addProvider(LootTableGenerator::new);
+        pack.addProvider(LangDatagen::new);
+        pack.addProvider(RecipeGenerator::new);
+        pack.addProvider(TagGenerator::new);
     }
 }

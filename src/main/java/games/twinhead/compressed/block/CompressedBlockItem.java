@@ -8,6 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 
+import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.List;
 
@@ -29,7 +30,10 @@ public class CompressedBlockItem extends BlockItem {
         if(!Screen.hasShiftDown()){
             tooltip.add(Text.translatable("tooltip.compressed.shift"));
         } else {
-            tooltip.add(Text.translatable("tooltip.compressed.stack", String.format("%.0f", getNumberOfBlocks(itemStack)) , getFormattedName()));
+            DecimalFormat df = new DecimalFormat("#");
+            df.setGroupingSize(3);
+            df.setGroupingUsed(true);
+            tooltip.add(Text.translatable("tooltip.compressed.stack", df.format(getNumberOfBlocks(itemStack)) , getFormattedName()));
             if(burnTime > 0)
                 tooltip.add(Text.translatable("tooltip.compressed.fuel", burnTime));
             if(getCompression() > 4) //todo find out how to check if the block is in the tag wither_immune
