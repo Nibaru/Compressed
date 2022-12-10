@@ -25,6 +25,7 @@ public class LootTableGenerator extends FabricBlockLootTableProvider {
     @Override
     public void accept(BiConsumer<Identifier, LootTable.Builder> identifierBuilderBiConsumer) {
         identifierBuilderBiConsumer.accept(new Identifier(Compressed.MOD_ID, "blocks/charcoal_block"), this.drops(RegisterBlocks.compressedBlocks.get("charcoal_block")));
+        identifierBuilderBiConsumer.accept(new Identifier(Compressed.MOD_ID, "blocks/compactor"), this.drops(RegisterBlocks.compressedBlocks.get("compactor")));
 
         for (CompressedBlocks block: CompressedBlocks.values()) {
             for (int i = 0; i < block.getCompression(); i++) {

@@ -30,6 +30,11 @@ public class CompressedBlockItem extends BlockItem {
         if(!Screen.hasShiftDown()){
             tooltip.add(Text.translatable("tooltip.compressed.shift"));
         } else {
+            if(this.name.equals("compactor")){
+                tooltip.add(Text.translatable("tooltip.compressed.compactor"));
+                tooltip.add(Text.translatable("tooltip.compressed.compactor2"));
+                return;
+            }
             DecimalFormat df = new DecimalFormat("#");
             df.setGroupingSize(3);
             df.setGroupingUsed(true);

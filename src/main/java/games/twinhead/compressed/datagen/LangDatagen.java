@@ -16,9 +16,12 @@ public class LangDatagen extends FabricLanguageProvider {
     public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add("itemGroup.compressed.compressed_blocks", "Compressed Blocks");
         translationBuilder.add(RegisterBlocks.compressedBlocks.get("charcoal_block"), "Charcoal Block");
+        translationBuilder.add(RegisterBlocks.compressedBlocks.get("compactor"), "Compactor");
         translationBuilder.add("tooltip.compressed.fuel", "Burns for %d ticks");
         translationBuilder.add("tooltip.compressed.shift", "\u00a77Hold\u00a77 \u00a7eShift");
         translationBuilder.add("tooltip.compressed.stack", "%d %din this stack.");
+        translationBuilder.add("tooltip.compressed.compactor", "Automatically compress your blocks!");
+        translationBuilder.add("tooltip.compressed.compactor2", "\u00a77Can auto-craft any 3x3 compacting recipe");
         translationBuilder.add("tooltip.compressed.witherproof", "Witherproof");
 
         for (CompressedBlocks block: CompressedBlocks.values()) {

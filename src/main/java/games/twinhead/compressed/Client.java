@@ -1,6 +1,8 @@
 package games.twinhead.compressed;
 
 import games.twinhead.compressed.block.CompressedBlocks;
+import games.twinhead.compressed.screen.CompactorScreen;
+import games.twinhead.compressed.screen.ModScreenHandlers;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
@@ -10,6 +12,7 @@ import net.minecraft.client.color.item.ItemColorProvider;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.color.world.FoliageColors;
 import net.minecraft.client.color.world.GrassColors;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 
 public class Client implements ClientModInitializer {
@@ -19,6 +22,9 @@ public class Client implements ClientModInitializer {
 		if(!FabricLoader.getInstance().isModLoaded("sodium"))
 			Colors();
 		GlassTransparency();
+
+		HandledScreens.register(ModScreenHandlers.COMPACTOR_SCREEN_HANDLER, CompactorScreen::new);
+
 	}
 
 	private void Colors(){

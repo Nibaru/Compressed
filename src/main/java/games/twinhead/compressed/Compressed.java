@@ -2,7 +2,6 @@ package games.twinhead.compressed;
 
 import games.twinhead.compressed.block.CompressedBlocks;
 import games.twinhead.compressed.block.entity.ModBlockEntities;
-import games.twinhead.compressed.recipe.ModRecipes;
 import games.twinhead.compressed.registry.RegisterBlocks;
 import games.twinhead.compressed.registry.RegisterItems;
 import games.twinhead.compressed.screen.ModScreenHandlers;
@@ -17,7 +16,6 @@ import org.slf4j.LoggerFactory;
 public class Compressed implements ModInitializer {
 
 	public static final String MOD_ID = "compressed";
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	public static final ItemGroup COMPRESSED_GROUP = FabricItemGroup.builder(
 			new Identifier(MOD_ID, "compressed_blocks"))
@@ -30,7 +28,6 @@ public class Compressed implements ModInitializer {
 		RegisterItems.register();
 		ModBlockEntities.registerBlockEntities();
 		ModScreenHandlers.registerAllScreenHandlers();
-		ModRecipes.registerRecipes();
 	}
 
 	public static String intToRoman(int number){

@@ -2,6 +2,7 @@ package games.twinhead.compressed.datagen;
 
 import games.twinhead.compressed.Compressed;
 import games.twinhead.compressed.block.CompressedBlocks;
+import games.twinhead.compressed.registry.RegisterBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Block;
@@ -35,6 +36,9 @@ public class TagGenerator extends FabricTagProvider<Block> {
             getOrCreateTagBuilder(commonStorage).addTag(TagKey.of(RegistryKeys.BLOCK, new Identifier(Compressed.MOD_ID, block.toString().toLowerCase())));
         }
 
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(RegisterBlocks.compressedBlocks.get("charcoal_block"));
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(RegisterBlocks.compressedBlocks.get("compactor"));
 
         getOrCreateTagBuilder(BlockTags.SOUL_SPEED_BLOCKS).addTag(TagKey.of(RegistryKeys.BLOCK, new Identifier(Compressed.MOD_ID, "soul_sand")));
         getOrCreateTagBuilder(BlockTags.SOUL_FIRE_BASE_BLOCKS).addTag(TagKey.of(RegistryKeys.BLOCK, new Identifier(Compressed.MOD_ID, "soul_sand")));

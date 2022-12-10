@@ -19,6 +19,7 @@ public class ModelGenerator extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
         blockStateModelGenerator.registerSimpleCubeAll(RegisterBlocks.compressedBlocks.get("charcoal_block"));
+        blockStateModelGenerator.registerSimpleCubeAll(RegisterBlocks.compressedBlocks.get("compactor"));
 
         for (CompressedBlocks block: CompressedBlocks.values()) {
             for (int i = 0; i < block.getCompression(); i++) {
