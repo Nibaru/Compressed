@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:coal_block_i",
+    "compressed:coal_block_ii",
+    "compressed:coal_block_iii",
+    "compressed:coal_block_iv"
+  ]
+}

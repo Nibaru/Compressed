@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "copper_block",
+  "key": {
+    "#": {
+      "item": "compressed:copper_block_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:copper_block_iv"
+  }
+}

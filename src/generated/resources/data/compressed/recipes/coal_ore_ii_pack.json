@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "coal_ore",
+  "key": {
+    "#": {
+      "item": "compressed:coal_ore_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:coal_ore_iii"
+  }
+}

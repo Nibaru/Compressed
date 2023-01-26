@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "red_concrete_powder",
+  "key": {
+    "#": {
+      "item": "compressed:red_concrete_powder_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:red_concrete_powder_iii"
+  }
+}

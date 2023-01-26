@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowstone",
+  "key": {
+    "#": {
+      "item": "compressed:glowstone_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:glowstone_iv"
+  }
+}

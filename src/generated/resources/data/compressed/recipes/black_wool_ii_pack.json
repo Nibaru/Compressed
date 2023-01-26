@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "black_wool",
+  "key": {
+    "#": {
+      "item": "compressed:black_wool_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:black_wool_iii"
+  }
+}

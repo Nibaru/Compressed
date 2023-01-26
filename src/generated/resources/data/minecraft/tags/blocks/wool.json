@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#compressed:white_wool",
+    "#compressed:yellow_wool",
+    "#compressed:black_wool",
+    "#compressed:red_wool",
+    "#compressed:purple_wool",
+    "#compressed:pink_wool",
+    "#compressed:orange_wool",
+    "#compressed:magenta_wool",
+    "#compressed:lime_wool",
+    "#compressed:light_gray_wool",
+    "#compressed:light_blue_wool",
+    "#compressed:green_wool",
+    "#compressed:gray_wool",
+    "#compressed:cyan_wool",
+    "#compressed:brown_wool",
+    "#compressed:blue_wool"
+  ]
+}

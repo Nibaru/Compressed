@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amethyst_block",
+  "key": {
+    "#": {
+      "item": "compressed:amethyst_block_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:amethyst_block_iv"
+  }
+}

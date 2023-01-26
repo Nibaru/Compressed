@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:white_concrete_ii_unpack"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_concrete_ii": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "compressed:white_concrete_ii"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_white_concrete_ii",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:white_concrete_ii_unpack"
+    ]
+  }
+}

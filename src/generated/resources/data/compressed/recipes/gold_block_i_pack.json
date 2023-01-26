@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gold_block",
+  "key": {
+    "#": {
+      "item": "compressed:gold_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:gold_block_ii"
+  }
+}

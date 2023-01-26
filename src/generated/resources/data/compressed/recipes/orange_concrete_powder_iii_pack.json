@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "orange_concrete_powder",
+  "key": {
+    "#": {
+      "item": "compressed:orange_concrete_powder_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:orange_concrete_powder_iv"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "emerald_ore",
+  "key": {
+    "#": {
+      "item": "compressed:emerald_ore_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:emerald_ore_iv"
+  }
+}

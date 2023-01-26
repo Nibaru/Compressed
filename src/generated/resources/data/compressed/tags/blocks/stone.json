@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:stone_i",
+    "compressed:stone_ii",
+    "compressed:stone_iii",
+    "compressed:stone_iv"
+  ]
+}

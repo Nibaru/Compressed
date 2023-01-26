@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pumpkin",
+  "key": {
+    "#": {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:pumpkin_i"
+  }
+}

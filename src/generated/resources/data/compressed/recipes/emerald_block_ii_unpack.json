@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "emerald_block",
+  "ingredients": [
+    {
+      "item": "compressed:emerald_block_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:emerald_block_i"
+  }
+}

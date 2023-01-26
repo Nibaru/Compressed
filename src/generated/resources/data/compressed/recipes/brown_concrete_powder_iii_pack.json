@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brown_concrete_powder",
+  "key": {
+    "#": {
+      "item": "compressed:brown_concrete_powder_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:brown_concrete_powder_iv"
+  }
+}

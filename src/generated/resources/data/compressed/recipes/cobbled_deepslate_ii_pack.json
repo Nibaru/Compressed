@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cobbled_deepslate",
+  "key": {
+    "#": {
+      "item": "compressed:cobbled_deepslate_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:cobbled_deepslate_iii"
+  }
+}

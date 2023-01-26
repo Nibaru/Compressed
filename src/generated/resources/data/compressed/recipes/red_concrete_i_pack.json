@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "red_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:red_concrete_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:red_concrete_ii"
+  }
+}

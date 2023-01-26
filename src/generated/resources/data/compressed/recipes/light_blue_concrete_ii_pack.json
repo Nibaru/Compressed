@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_blue_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:light_blue_concrete_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:light_blue_concrete_iii"
+  }
+}

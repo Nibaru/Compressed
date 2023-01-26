@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glass",
+  "ingredients": [
+    {
+      "item": "compressed:glass_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:glass"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "deepslate_diamond_ore",
+  "key": {
+    "#": {
+      "item": "compressed:deepslate_diamond_ore_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:deepslate_diamond_ore_iii"
+  }
+}

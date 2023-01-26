@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "nether_bricks",
+  "key": {
+    "#": {
+      "item": "compressed:nether_bricks_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:nether_bricks_iii"
+  }
+}

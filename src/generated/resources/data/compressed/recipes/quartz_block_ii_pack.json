@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "quartz_block",
+  "key": {
+    "#": {
+      "item": "compressed:quartz_block_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:quartz_block_iii"
+  }
+}

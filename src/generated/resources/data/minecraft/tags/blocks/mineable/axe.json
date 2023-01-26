@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#compressed:acacia_log",
+    "#compressed:birch_log",
+    "#compressed:dark_oak_log",
+    "#compressed:melon",
+    "#compressed:oak_log",
+    "#compressed:podzol",
+    "#compressed:pumpkin",
+    "#compressed:spruce_log",
+    "#compressed:warped_nylium",
+    "#compressed:warped_stem",
+    "#compressed:mangrove_log",
+    "#compressed:mangrove_roots"
+  ]
+}

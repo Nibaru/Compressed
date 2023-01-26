@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "azalea_leaves",
+  "ingredients": [
+    {
+      "item": "compressed:azalea_leaves_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:azalea_leaves_iii"
+  }
+}

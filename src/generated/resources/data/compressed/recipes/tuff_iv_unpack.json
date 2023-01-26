@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tuff",
+  "ingredients": [
+    {
+      "item": "compressed:tuff_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:tuff_iii"
+  }
+}

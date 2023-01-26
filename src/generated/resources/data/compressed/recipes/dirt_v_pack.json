@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dirt",
+  "key": {
+    "#": {
+      "item": "compressed:dirt_v"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:dirt_vi"
+  }
+}

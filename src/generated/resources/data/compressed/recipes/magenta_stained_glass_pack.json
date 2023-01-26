@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magenta_stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_stained_glass"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:magenta_stained_glass_i"
+  }
+}

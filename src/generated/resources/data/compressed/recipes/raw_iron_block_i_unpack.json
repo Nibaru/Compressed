@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "raw_iron_block",
+  "ingredients": [
+    {
+      "item": "compressed:raw_iron_block_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:raw_iron_block"
+  }
+}

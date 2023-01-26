@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "prismarine",
+  "ingredients": [
+    {
+      "item": "compressed:prismarine_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:prismarine_i"
+  }
+}

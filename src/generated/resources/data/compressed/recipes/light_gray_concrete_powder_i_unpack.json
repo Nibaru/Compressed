@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "light_gray_concrete_powder",
+  "ingredients": [
+    {
+      "item": "compressed:light_gray_concrete_powder_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:light_gray_concrete_powder"
+  }
+}

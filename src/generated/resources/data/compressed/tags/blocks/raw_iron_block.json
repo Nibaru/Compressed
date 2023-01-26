@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:raw_iron_block_i",
+    "compressed:raw_iron_block_ii",
+    "compressed:raw_iron_block_iii",
+    "compressed:raw_iron_block_iv"
+  ]
+}

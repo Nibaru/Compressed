@@ -32,7 +32,7 @@ public class CompactorBlockEntity extends BlockEntity implements NamedScreenHand
     private int maxProgress = 72;
 
     public CompactorBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntities.COMPACTOR, pos, state);
+        super(ModBlockEntities.COMPACTOR.get(), pos, state);
         this.propertyDelegate = new PropertyDelegate() {
             public int get(int index) {
                 return switch (index) {

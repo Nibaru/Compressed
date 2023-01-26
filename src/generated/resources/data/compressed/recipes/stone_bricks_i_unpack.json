@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "stone_bricks",
+  "ingredients": [
+    {
+      "item": "compressed:stone_bricks_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:stone_bricks"
+  }
+}

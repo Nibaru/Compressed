@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_bricks",
+  "key": {
+    "#": {
+      "item": "compressed:stone_bricks_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:stone_bricks_iv"
+  }
+}

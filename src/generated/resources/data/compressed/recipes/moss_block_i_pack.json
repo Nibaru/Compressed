@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "moss_block",
+  "key": {
+    "#": {
+      "item": "compressed:moss_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:moss_block_ii"
+  }
+}

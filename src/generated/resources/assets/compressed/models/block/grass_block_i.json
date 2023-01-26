@@ -1,0 +1,10 @@
+{
+  "parent": "compressed:block/compressed_grass",
+  "textures": {
+    "bottom": "minecraft:block/dirt",
+    "edge": "minecraft:block/grass_block_side_overlay",
+    "layer0": "compressed:block/compressed_i",
+    "side": "minecraft:block/grass_block_side",
+    "top": "minecraft:block/grass_block_top"
+  }
+}

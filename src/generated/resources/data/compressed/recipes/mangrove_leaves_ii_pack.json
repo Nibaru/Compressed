@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mangrove_leaves",
+  "key": {
+    "#": {
+      "item": "compressed:mangrove_leaves_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:mangrove_leaves_iii"
+  }
+}

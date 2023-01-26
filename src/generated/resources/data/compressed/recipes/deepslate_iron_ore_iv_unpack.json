@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "deepslate_iron_ore",
+  "ingredients": [
+    {
+      "item": "compressed:deepslate_iron_ore_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:deepslate_iron_ore_iii"
+  }
+}

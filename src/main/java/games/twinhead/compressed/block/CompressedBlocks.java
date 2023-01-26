@@ -2,10 +2,10 @@ package games.twinhead.compressed.block;
 
 import games.twinhead.compressed.Compressed;
 import games.twinhead.compressed.registry.RegisterBlocks;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
+import net.minecraftforge.registries.RegistryObject;
 
 public enum CompressedBlocks {
     ACACIA_LOG(4, Blocks.ACACIA_LOG, 300, BlockTags.AXE_MINEABLE),
@@ -261,12 +261,8 @@ public enum CompressedBlocks {
         return (int) ((Math.pow(9, compression)) * getBurnTime());
     }
 
-    public Block getBlock(int compression) {
+    public RegistryObject<Block> getBlock(int compression) {
         return RegisterBlocks.compressedBlocks.get(this.getName(compression));
-    }
-
-    public Block getWitherProofBlock(){
-        return new Block(FabricBlockSettings.copy(this.getCopyBlock()).strength(2, 5000));
     }
 
     public String getName(int compression){

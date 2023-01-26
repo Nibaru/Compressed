@@ -1,0 +1,7 @@
+{
+  "parent": "compressed:block/compressed_cube_all",
+  "textures": {
+    "all": "minecraft:block/honey_block_bottom",
+    "layer0": "compressed:block/compressed_i"
+  }
+}

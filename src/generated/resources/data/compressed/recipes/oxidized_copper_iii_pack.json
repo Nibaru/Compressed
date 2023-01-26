@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "oxidized_copper",
+  "key": {
+    "#": {
+      "item": "compressed:oxidized_copper_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:oxidized_copper_iv"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "deepslate",
+  "key": {
+    "#": {
+      "item": "compressed:deepslate_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:deepslate_iv"
+  }
+}

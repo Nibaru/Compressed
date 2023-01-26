@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gold_ore",
+  "key": {
+    "#": {
+      "item": "compressed:gold_ore_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:gold_ore_iii"
+  }
+}

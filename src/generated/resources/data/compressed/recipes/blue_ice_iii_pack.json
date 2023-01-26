@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_ice",
+  "key": {
+    "#": {
+      "item": "compressed:blue_ice_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:blue_ice_iv"
+  }
+}

@@ -98,6 +98,6 @@ public class CompactorBlock extends BlockWithEntity implements BlockEntityProvid
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return checkType(type, ModBlockEntities.COMPACTOR, CompactorBlockEntity::tick);
+        return checkType(type, ModBlockEntities.COMPACTOR.get(), CompactorBlockEntity::tick);
     }
 }

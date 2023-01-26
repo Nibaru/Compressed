@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "calcite",
+  "ingredients": [
+    {
+      "item": "compressed:calcite_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:calcite"
+  }
+}

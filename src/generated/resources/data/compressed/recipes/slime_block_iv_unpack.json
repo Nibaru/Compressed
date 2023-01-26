@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "slime_block",
+  "ingredients": [
+    {
+      "item": "compressed:slime_block_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:slime_block_iii"
+  }
+}

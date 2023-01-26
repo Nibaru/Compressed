@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "magenta_concrete",
+  "ingredients": [
+    {
+      "item": "compressed:magenta_concrete_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:magenta_concrete"
+  }
+}

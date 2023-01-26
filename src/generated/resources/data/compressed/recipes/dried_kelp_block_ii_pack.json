@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dried_kelp_block",
+  "key": {
+    "#": {
+      "item": "compressed:dried_kelp_block_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:dried_kelp_block_iii"
+  }
+}

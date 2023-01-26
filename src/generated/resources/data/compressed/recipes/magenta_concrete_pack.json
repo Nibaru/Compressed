@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magenta_concrete",
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_concrete"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:magenta_concrete_i"
+  }
+}

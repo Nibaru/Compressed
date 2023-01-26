@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shroomlight",
+  "key": {
+    "#": {
+      "item": "compressed:shroomlight_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:shroomlight_iv"
+  }
+}

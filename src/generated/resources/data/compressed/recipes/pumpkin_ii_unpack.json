@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pumpkin",
+  "ingredients": [
+    {
+      "item": "compressed:pumpkin_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:pumpkin_i"
+  }
+}

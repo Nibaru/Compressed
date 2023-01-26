@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mossy_cobblestone",
+  "ingredients": [
+    {
+      "item": "compressed:mossy_cobblestone_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:mossy_cobblestone"
+  }
+}

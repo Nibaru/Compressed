@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:andesite_vi",
+    "compressed:andesite_vii",
+    "compressed:andesite_viii",
+    "compressed:andesite_ix",
+    "compressed:cobbled_deepslate_vi",
+    "compressed:cobbled_deepslate_vii",
+    "compressed:cobbled_deepslate_viii",
+    "compressed:cobbled_deepslate_ix",
+    "compressed:cobblestone_vi",
+    "compressed:cobblestone_vii",
+    "compressed:cobblestone_viii",
+    "compressed:cobblestone_ix",
+    "compressed:diorite_vi",
+    "compressed:diorite_vii",
+    "compressed:diorite_viii",
+    "compressed:diorite_ix",
+    "compressed:dirt_vi",
+    "compressed:dirt_vii",
+    "compressed:dirt_viii",
+    "compressed:dirt_ix",
+    "compressed:granite_vi",
+    "compressed:granite_vii",
+    "compressed:granite_viii",
+    "compressed:granite_ix"
+  ]
+}

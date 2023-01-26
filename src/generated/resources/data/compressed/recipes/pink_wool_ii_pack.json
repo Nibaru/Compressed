@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pink_wool",
+  "key": {
+    "#": {
+      "item": "compressed:pink_wool_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:pink_wool_iii"
+  }
+}

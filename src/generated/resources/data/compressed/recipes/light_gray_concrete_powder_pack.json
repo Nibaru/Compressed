@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_gray_concrete_powder",
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_concrete_powder"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:light_gray_concrete_powder_i"
+  }
+}

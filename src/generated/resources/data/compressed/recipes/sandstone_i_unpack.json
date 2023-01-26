@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sandstone",
+  "ingredients": [
+    {
+      "item": "compressed:sandstone_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:sandstone"
+  }
+}

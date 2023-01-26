@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dark_prismarine",
+  "ingredients": [
+    {
+      "item": "compressed:dark_prismarine_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:dark_prismarine_iii"
+  }
+}

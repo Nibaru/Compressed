@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:iron_ore_i",
+    "compressed:iron_ore_ii",
+    "compressed:iron_ore_iii",
+    "compressed:iron_ore_iv"
+  ]
+}

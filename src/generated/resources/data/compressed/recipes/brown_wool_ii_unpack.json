@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "brown_wool",
+  "ingredients": [
+    {
+      "item": "compressed:brown_wool_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:brown_wool_i"
+  }
+}

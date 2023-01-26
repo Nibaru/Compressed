@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "flowering_azalea_leaves",
+  "key": {
+    "#": {
+      "item": "compressed:flowering_azalea_leaves_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:flowering_azalea_leaves_iii"
+  }
+}

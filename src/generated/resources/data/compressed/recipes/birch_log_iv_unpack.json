@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "birch_log",
+  "ingredients": [
+    {
+      "item": "compressed:birch_log_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:birch_log_iii"
+  }
+}

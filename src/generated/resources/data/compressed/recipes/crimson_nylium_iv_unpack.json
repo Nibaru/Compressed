@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "crimson_nylium",
+  "ingredients": [
+    {
+      "item": "compressed:crimson_nylium_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:crimson_nylium_iii"
+  }
+}

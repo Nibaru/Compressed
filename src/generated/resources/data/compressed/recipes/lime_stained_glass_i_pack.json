@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lime_stained_glass",
+  "key": {
+    "#": {
+      "item": "compressed:lime_stained_glass_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:lime_stained_glass_ii"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "compressed:block/compressed_cube_all",
+  "textures": {
+    "all": "minecraft:block/nether_bricks",
+    "layer0": "compressed:block/compressed_i"
+  }
+}

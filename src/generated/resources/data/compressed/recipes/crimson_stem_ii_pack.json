@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crimson_stem",
+  "key": {
+    "#": {
+      "item": "compressed:crimson_stem_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:crimson_stem_iii"
+  }
+}

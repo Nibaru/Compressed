@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "deepslate_coal_ore",
+  "key": {
+    "#": {
+      "item": "compressed:deepslate_coal_ore_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:deepslate_coal_ore_ii"
+  }
+}

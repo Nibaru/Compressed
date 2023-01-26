@@ -1,0 +1,8 @@
+{
+  "parent": "compressed:block/compressed_roots",
+  "textures": {
+    "layer0": "compressed:block/compressed_iii",
+    "side": "minecraft:block/mangrove_roots_side",
+    "top": "minecraft:block/mangrove_roots_top"
+  }
+}

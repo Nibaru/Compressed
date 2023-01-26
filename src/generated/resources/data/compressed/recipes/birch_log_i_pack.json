@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "birch_log",
+  "key": {
+    "#": {
+      "item": "compressed:birch_log_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:birch_log_ii"
+  }
+}

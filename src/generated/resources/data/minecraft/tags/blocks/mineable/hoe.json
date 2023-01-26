@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#compressed:dried_kelp_block",
+    "#compressed:hay_block",
+    "#compressed:moss_block",
+    "#compressed:nether_wart_block",
+    "#compressed:shroomlight",
+    "#compressed:warped_wart_block",
+    "#compressed:acacia_leaves",
+    "#compressed:birch_leaves",
+    "#compressed:jungle_leaves",
+    "#compressed:dark_oak_leaves",
+    "#compressed:oak_leaves",
+    "#compressed:spruce_leaves",
+    "#compressed:azalea_leaves",
+    "#compressed:flowering_azalea_leaves",
+    "#compressed:sculk",
+    "#compressed:mangrove_leaves"
+  ]
+}

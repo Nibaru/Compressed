@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_stained_glass",
+  "key": {
+    "#": {
+      "item": "compressed:blue_stained_glass_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:blue_stained_glass_ii"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "green_stained_glass",
+  "ingredients": [
+    {
+      "item": "compressed:green_stained_glass_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:green_stained_glass_i"
+  }
+}

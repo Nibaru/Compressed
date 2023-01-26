@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:coal_ore_i",
+    "compressed:coal_ore_ii",
+    "compressed:coal_ore_iii",
+    "compressed:coal_ore_iv"
+  ]
+}

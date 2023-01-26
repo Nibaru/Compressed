@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pink_stained_glass",
+  "key": {
+    "#": {
+      "item": "compressed:pink_stained_glass_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:pink_stained_glass_iv"
+  }
+}

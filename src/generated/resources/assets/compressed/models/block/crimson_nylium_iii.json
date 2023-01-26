@@ -1,0 +1,10 @@
+{
+  "parent": "compressed:block/compressed_grass",
+  "textures": {
+    "bottom": "minecraft:block/netherrack",
+    "edge": "minecraft:block/crimson_nylium_side",
+    "layer0": "compressed:block/compressed_iii",
+    "side": "minecraft:block/crimson_nylium_side",
+    "top": "minecraft:block/crimson_nylium"
+  }
+}

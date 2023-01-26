@@ -1,0 +1,7 @@
+{
+  "parent": "compressed:block/compressed_cube_all",
+  "textures": {
+    "all": "minecraft:block/green_terracotta",
+    "layer0": "compressed:block/compressed_ii"
+  }
+}

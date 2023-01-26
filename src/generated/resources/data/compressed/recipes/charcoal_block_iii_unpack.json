@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "charcoal_block",
+  "ingredients": [
+    {
+      "item": "compressed:charcoal_block_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:charcoal_block_ii"
+  }
+}

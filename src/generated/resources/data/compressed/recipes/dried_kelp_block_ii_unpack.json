@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dried_kelp_block",
+  "ingredients": [
+    {
+      "item": "compressed:dried_kelp_block_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:dried_kelp_block_i"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brown_stained_glass",
+  "key": {
+    "#": {
+      "item": "compressed:brown_stained_glass_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:brown_stained_glass_ii"
+  }
+}

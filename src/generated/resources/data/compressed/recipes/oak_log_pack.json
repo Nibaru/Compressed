@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "oak_log",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:oak_log_i"
+  }
+}

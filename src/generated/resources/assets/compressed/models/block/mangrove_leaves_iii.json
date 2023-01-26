@@ -1,0 +1,7 @@
+{
+  "parent": "compressed:block/compressed_leaves",
+  "textures": {
+    "all": "minecraft:block/mangrove_leaves",
+    "layer0": "compressed:block/compressed_iii"
+  }
+}

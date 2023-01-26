@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "prismarine",
+  "key": {
+    "#": {
+      "item": "compressed:prismarine_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:prismarine_iii"
+  }
+}

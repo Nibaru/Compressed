@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "red_wool",
+  "key": {
+    "#": {
+      "item": "compressed:red_wool_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:red_wool_ii"
+  }
+}

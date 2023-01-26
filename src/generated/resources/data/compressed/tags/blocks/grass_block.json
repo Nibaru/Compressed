@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:grass_block_i",
+    "compressed:grass_block_ii",
+    "compressed:grass_block_iii",
+    "compressed:grass_block_iv"
+  ]
+}

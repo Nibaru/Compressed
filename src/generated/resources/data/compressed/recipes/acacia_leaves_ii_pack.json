@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "acacia_leaves",
+  "key": {
+    "#": {
+      "item": "compressed:acacia_leaves_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:acacia_leaves_iii"
+  }
+}

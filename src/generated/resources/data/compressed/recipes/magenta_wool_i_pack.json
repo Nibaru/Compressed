@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magenta_wool",
+  "key": {
+    "#": {
+      "item": "compressed:magenta_wool_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:magenta_wool_ii"
+  }
+}

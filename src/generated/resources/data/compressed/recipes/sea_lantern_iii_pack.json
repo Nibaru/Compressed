@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sea_lantern",
+  "key": {
+    "#": {
+      "item": "compressed:sea_lantern_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:sea_lantern_iv"
+  }
+}

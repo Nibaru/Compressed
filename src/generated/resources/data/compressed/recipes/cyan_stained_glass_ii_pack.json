@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cyan_stained_glass",
+  "key": {
+    "#": {
+      "item": "compressed:cyan_stained_glass_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:cyan_stained_glass_iii"
+  }
+}

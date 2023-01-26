@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mycelium",
+  "key": {
+    "#": {
+      "item": "compressed:mycelium_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:mycelium_iii"
+  }
+}

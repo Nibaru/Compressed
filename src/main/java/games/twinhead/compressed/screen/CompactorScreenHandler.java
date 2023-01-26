@@ -7,6 +7,7 @@ import net.minecraft.inventory.Inventory;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.network.PacketByteBuf;
 import net.minecraft.recipe.CraftingRecipe;
 import net.minecraft.recipe.RecipeType;
 import net.minecraft.screen.ArrayPropertyDelegate;
@@ -24,12 +25,12 @@ public class CompactorScreenHandler extends ScreenHandler {
 
 
 
-    public CompactorScreenHandler(int syncId, PlayerInventory inventory) {
+    public CompactorScreenHandler(int syncId, PlayerInventory inventory, PacketByteBuf packetByteBuf) {
         this(syncId, inventory, new SimpleInventory(2), new ArrayPropertyDelegate(2));
     }
 
     public CompactorScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory, PropertyDelegate delegate) {
-        super(ModScreenHandlers.COMPACTOR_SCREEN_HANDLER, syncId);
+        super(ModScreenHandlers.COMPACTOR_SCREEN_HANDLER.get(), syncId);
         checkSize(inventory, 2);
         this.inventory = inventory;
         inventory.onOpen(playerInventory.player);

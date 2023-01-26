@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:lapis_ore_i",
+    "compressed:lapis_ore_ii",
+    "compressed:lapis_ore_iii",
+    "compressed:lapis_ore_iv"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dark_oak_leaves",
+  "ingredients": [
+    {
+      "item": "compressed:dark_oak_leaves_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:dark_oak_leaves_i"
+  }
+}

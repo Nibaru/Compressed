@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lapis_ore",
+  "key": {
+    "#": {
+      "item": "minecraft:lapis_ore"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:lapis_ore_i"
+  }
+}

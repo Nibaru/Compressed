@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "honeycomb_block",
+  "ingredients": [
+    {
+      "item": "compressed:honeycomb_block_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:honeycomb_block_iii"
+  }
+}

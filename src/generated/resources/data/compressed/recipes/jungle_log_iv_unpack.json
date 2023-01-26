@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "jungle_log",
+  "ingredients": [
+    {
+      "item": "compressed:jungle_log_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:jungle_log_iii"
+  }
+}

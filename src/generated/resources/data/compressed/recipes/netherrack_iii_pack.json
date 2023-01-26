@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "netherrack",
+  "key": {
+    "#": {
+      "item": "compressed:netherrack_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:netherrack_iv"
+  }
+}

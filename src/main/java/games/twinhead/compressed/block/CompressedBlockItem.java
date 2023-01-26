@@ -4,9 +4,12 @@ import net.minecraft.block.Block;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.recipe.RecipeType;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
 
 import java.text.DecimalFormat;
 import java.util.Arrays;
@@ -24,9 +27,16 @@ public class CompressedBlockItem extends BlockItem {
         this.name = name;
     }
 
+    @Override
+    public int getBurnTime(ItemStack stack, @Nullable RecipeType<?> type){
+        return getCompressedBurnTime();
+    }
+
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
+        if(this.name.equals("charcoal_block")) return;
+
         if(!Screen.hasShiftDown()){
             tooltip.add(Text.translatable("tooltip.compressed.shift"));
         } else {
@@ -40,11 +50,12 @@ public class CompressedBlockItem extends BlockItem {
             df.setGroupingUsed(true);
             tooltip.add(Text.translatable("tooltip.compressed.stack", df.format(getNumberOfBlocks(itemStack)) , getFormattedName()));
             if(burnTime > 0)
-                tooltip.add(Text.translatable("tooltip.compressed.fuel", burnTime));
+                tooltip.add(Text.translatable("tooltip.compressed.fuel", getCompressedBurnTime()));
             if(getCompression() > 4) //todo find out how to check if the block is in the tag wither_immune
                 tooltip.add(Text.translatable("tooltip.compressed.witherproof"));
         }
     }
+
 
     public int getCompression(){
         String[] parts = name.split("_");

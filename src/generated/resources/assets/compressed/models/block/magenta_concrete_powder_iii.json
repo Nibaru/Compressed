@@ -1,0 +1,7 @@
+{
+  "parent": "compressed:block/compressed_cube_all",
+  "textures": {
+    "all": "minecraft:block/magenta_concrete_powder",
+    "layer0": "compressed:block/compressed_iii"
+  }
+}

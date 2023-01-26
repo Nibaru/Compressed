@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "oxidized_copper",
+  "ingredients": [
+    {
+      "item": "compressed:oxidized_copper_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:oxidized_copper_iii"
+  }
+}

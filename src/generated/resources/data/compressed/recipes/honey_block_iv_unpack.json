@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "honey_block",
+  "ingredients": [
+    {
+      "item": "compressed:honey_block_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:honey_block_iii"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "warped_stem",
+  "ingredients": [
+    {
+      "item": "compressed:warped_stem_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:warped_stem_ii"
+  }
+}

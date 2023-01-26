@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "soul_sand",
+  "key": {
+    "#": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:soul_sand_i"
+  }
+}

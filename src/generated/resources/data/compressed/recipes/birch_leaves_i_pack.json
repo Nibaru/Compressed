@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "birch_leaves",
+  "key": {
+    "#": {
+      "item": "compressed:birch_leaves_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:birch_leaves_ii"
+  }
+}

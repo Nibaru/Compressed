@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "white_terracotta",
+  "ingredients": [
+    {
+      "item": "compressed:white_terracotta_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:white_terracotta_i"
+  }
+}

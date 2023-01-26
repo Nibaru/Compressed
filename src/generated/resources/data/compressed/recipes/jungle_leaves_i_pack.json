@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "jungle_leaves",
+  "key": {
+    "#": {
+      "item": "compressed:jungle_leaves_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:jungle_leaves_ii"
+  }
+}

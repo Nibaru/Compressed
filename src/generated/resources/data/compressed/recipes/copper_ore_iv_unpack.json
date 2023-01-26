@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper_ore",
+  "ingredients": [
+    {
+      "item": "compressed:copper_ore_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:copper_ore_iii"
+  }
+}

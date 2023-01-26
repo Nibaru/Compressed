@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bone_block",
+  "key": {
+    "#": {
+      "item": "compressed:bone_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:bone_block_ii"
+  }
+}

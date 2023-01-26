@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "purple_stained_glass",
+  "key": {
+    "#": {
+      "item": "compressed:purple_stained_glass_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:purple_stained_glass_iii"
+  }
+}

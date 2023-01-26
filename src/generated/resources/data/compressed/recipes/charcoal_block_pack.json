@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "charcoal_block",
+  "key": {
+    "#": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:charcoal_block_i"
+  }
+}

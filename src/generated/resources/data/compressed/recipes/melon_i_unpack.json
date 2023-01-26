@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "melon",
+  "ingredients": [
+    {
+      "item": "compressed:melon_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:melon"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rooted_dirt",
+  "key": {
+    "#": {
+      "item": "compressed:rooted_dirt_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:rooted_dirt_ii"
+  }
+}

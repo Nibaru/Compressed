@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "yellow_wool",
+  "key": {
+    "#": {
+      "item": "compressed:yellow_wool_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:yellow_wool_iv"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hay_block",
+  "key": {
+    "#": {
+      "item": "minecraft:hay_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:hay_block_i"
+  }
+}

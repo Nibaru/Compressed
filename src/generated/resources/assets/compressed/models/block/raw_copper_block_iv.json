@@ -1,0 +1,7 @@
+{
+  "parent": "compressed:block/compressed_cube_all",
+  "textures": {
+    "all": "minecraft:block/raw_copper_block",
+    "layer0": "compressed:block/compressed_iv"
+  }
+}

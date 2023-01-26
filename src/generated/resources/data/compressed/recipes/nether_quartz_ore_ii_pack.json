@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "nether_quartz_ore",
+  "key": {
+    "#": {
+      "item": "compressed:nether_quartz_ore_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:nether_quartz_ore_iii"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pink_terracotta",
+  "ingredients": [
+    {
+      "item": "compressed:pink_terracotta_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:pink_terracotta_ii"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "redstone_ore",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_ore"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:redstone_ore_i"
+  }
+}

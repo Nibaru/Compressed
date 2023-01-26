@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glowstone",
+  "ingredients": [
+    {
+      "item": "compressed:glowstone_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:glowstone_iii"
+  }
+}

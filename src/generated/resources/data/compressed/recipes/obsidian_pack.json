@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "obsidian",
+  "key": {
+    "#": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:obsidian_i"
+  }
+}

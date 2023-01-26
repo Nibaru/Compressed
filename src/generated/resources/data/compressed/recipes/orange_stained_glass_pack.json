@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "orange_stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:orange_stained_glass"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:orange_stained_glass_i"
+  }
+}

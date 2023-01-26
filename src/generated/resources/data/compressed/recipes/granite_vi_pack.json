@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "granite",
+  "key": {
+    "#": {
+      "item": "compressed:granite_vi"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:granite_vii"
+  }
+}

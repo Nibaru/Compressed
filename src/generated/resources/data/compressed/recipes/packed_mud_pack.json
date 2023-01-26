@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "packed_mud",
+  "key": {
+    "#": {
+      "item": "minecraft:packed_mud"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:packed_mud_i"
+  }
+}

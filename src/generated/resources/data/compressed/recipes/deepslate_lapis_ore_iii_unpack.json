@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "deepslate_lapis_ore",
+  "ingredients": [
+    {
+      "item": "compressed:deepslate_lapis_ore_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:deepslate_lapis_ore_ii"
+  }
+}

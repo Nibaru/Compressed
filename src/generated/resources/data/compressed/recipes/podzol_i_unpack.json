@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "podzol",
+  "ingredients": [
+    {
+      "item": "compressed:podzol_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:podzol"
+  }
+}

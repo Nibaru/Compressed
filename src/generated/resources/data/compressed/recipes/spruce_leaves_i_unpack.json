@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spruce_leaves",
+  "ingredients": [
+    {
+      "item": "compressed:spruce_leaves_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:spruce_leaves"
+  }
+}

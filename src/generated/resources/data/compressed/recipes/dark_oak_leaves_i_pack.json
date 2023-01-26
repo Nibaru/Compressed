@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_oak_leaves",
+  "key": {
+    "#": {
+      "item": "compressed:dark_oak_leaves_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:dark_oak_leaves_ii"
+  }
+}

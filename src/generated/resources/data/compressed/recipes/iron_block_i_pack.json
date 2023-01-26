@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "iron_block",
+  "key": {
+    "#": {
+      "item": "compressed:iron_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:iron_block_ii"
+  }
+}

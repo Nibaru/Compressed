@@ -5,15 +5,23 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.util.Identifier;
+import net.minecraftforge.common.extensions.IForgeMenuType;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ModScreenHandlers {
-    public static ScreenHandlerType<CompactorScreenHandler> COMPACTOR_SCREEN_HANDLER;
+
+
+    private static final DeferredRegister<ScreenHandlerType<?>> SCREEN_HANDLERS = DeferredRegister.create(ForgeRegistries.MENU_TYPES, Compressed.MOD_ID);
+
+    //public static ScreenHandlerType<CompactorScreenHandler> COMPACTOR_SCREEN_HANDLER;
+
+    public static final RegistryObject<ScreenHandlerType<CompactorScreenHandler>> COMPACTOR_SCREEN_HANDLER = SCREEN_HANDLERS.register("compactor_screen_handler", () -> IForgeMenuType.create(CompactorScreenHandler::new));
+
 
     public static void registerAllScreenHandlers() {
-        COMPACTOR_SCREEN_HANDLER = new ScreenHandlerType<>(CompactorScreenHandler::new);
-
-        Registry.register(Registries.SCREEN_HANDLER,new Identifier(Compressed.MOD_ID, "compactor_screen_handler"), COMPACTOR_SCREEN_HANDLER);
-
-
+        SCREEN_HANDLERS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }

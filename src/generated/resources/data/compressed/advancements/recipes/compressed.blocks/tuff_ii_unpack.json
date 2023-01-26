@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tuff_ii_unpack"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tuff_ii": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "compressed:tuff_ii"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tuff_ii",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tuff_ii_unpack"
+    ]
+  }
+}

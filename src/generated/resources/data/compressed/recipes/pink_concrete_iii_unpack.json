@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pink_concrete",
+  "ingredients": [
+    {
+      "item": "compressed:pink_concrete_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:pink_concrete_ii"
+  }
+}

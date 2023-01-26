@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blue_concrete",
+  "ingredients": [
+    {
+      "item": "compressed:blue_concrete_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:blue_concrete_ii"
+  }
+}

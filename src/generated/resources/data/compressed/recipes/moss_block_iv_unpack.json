@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "moss_block",
+  "ingredients": [
+    {
+      "item": "compressed:moss_block_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:moss_block_iii"
+  }
+}

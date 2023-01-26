@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "red_sandstone",
+  "key": {
+    "#": {
+      "item": "compressed:red_sandstone_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:red_sandstone_ii"
+  }
+}

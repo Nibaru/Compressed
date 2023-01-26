@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#compressed:iron_block",
+    "#compressed:gold_block",
+    "#compressed:diamond_block",
+    "#compressed:emerald_block",
+    "#compressed:netherite_block"
+  ]
+}

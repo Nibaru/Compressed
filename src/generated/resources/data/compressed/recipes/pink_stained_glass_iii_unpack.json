@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pink_stained_glass",
+  "ingredients": [
+    {
+      "item": "compressed:pink_stained_glass_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:pink_stained_glass_ii"
+  }
+}

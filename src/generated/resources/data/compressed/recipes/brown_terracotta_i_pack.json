@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brown_terracotta",
+  "key": {
+    "#": {
+      "item": "compressed:brown_terracotta_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:brown_terracotta_ii"
+  }
+}

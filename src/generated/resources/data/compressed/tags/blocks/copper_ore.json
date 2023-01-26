@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "compressed:copper_ore_i",
+    "compressed:copper_ore_ii",
+    "compressed:copper_ore_iii",
+    "compressed:copper_ore_iv"
+  ]
+}

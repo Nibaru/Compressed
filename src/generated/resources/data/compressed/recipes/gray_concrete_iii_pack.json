@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gray_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:gray_concrete_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:gray_concrete_iv"
+  }
+}

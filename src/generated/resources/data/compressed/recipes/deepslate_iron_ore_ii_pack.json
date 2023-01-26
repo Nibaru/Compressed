@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "deepslate_iron_ore",
+  "key": {
+    "#": {
+      "item": "compressed:deepslate_iron_ore_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:deepslate_iron_ore_iii"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "acacia_log",
+  "ingredients": [
+    {
+      "item": "compressed:acacia_log_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:acacia_log_iii"
+  }
+}

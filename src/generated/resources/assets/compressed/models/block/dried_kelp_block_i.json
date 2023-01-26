@@ -1,0 +1,8 @@
+{
+  "parent": "compressed:block/compressed_cube_column",
+  "textures": {
+    "end": "minecraft:block/dried_kelp_top",
+    "layer0": "compressed:block/compressed_i",
+    "side": "minecraft:block/dried_kelp_side"
+  }
+}

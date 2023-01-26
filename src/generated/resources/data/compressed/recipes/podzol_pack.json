@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "podzol",
+  "key": {
+    "#": {
+      "item": "minecraft:podzol"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:podzol_i"
+  }
+}

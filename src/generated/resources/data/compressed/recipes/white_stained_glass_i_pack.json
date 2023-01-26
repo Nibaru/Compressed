@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "white_stained_glass",
+  "key": {
+    "#": {
+      "item": "compressed:white_stained_glass_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:white_stained_glass_ii"
+  }
+}

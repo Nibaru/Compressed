@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "warped_nylium",
+  "key": {
+    "#": {
+      "item": "compressed:warped_nylium_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:warped_nylium_iii"
+  }
+}

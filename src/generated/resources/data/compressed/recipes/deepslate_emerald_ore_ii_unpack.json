@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "deepslate_emerald_ore",
+  "ingredients": [
+    {
+      "item": "compressed:deepslate_emerald_ore_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:deepslate_emerald_ore_i"
+  }
+}

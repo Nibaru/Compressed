@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "redstone_ore",
+  "ingredients": [
+    {
+      "item": "compressed:redstone_ore_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:redstone_ore_iii"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "warped_wart_block",
+  "key": {
+    "#": {
+      "item": "minecraft:warped_wart_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:warped_wart_block_i"
+  }
+}

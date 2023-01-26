@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cyan_terracotta",
+  "key": {
+    "#": {
+      "item": "compressed:cyan_terracotta_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:cyan_terracotta_iii"
+  }
+}
