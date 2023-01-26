@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.8.0 - Fabric 1.19.3]
+## [1.8.0 - Forge 1.19.3]
 
 ### Updated to 1.19.3
 
