@@ -137,7 +137,7 @@ public class CompactorBlockEntity extends BlockEntity implements NamedScreenHand
 
     private static boolean itemHasCompactingRecipe(CompactorBlockEntity entity, Item item){
         CraftingInventory ci = new CraftingInventory(new ScreenHandler((ScreenHandlerType)null, -1) {
-            public ItemStack quickMove(PlayerEntity player, int slot) {
+            public ItemStack transferSlot(PlayerEntity player, int slot) {
                 return ItemStack.EMPTY;
             }
             public boolean canUse(PlayerEntity player) {
@@ -156,7 +156,7 @@ public class CompactorBlockEntity extends BlockEntity implements NamedScreenHand
 
     private static Item getCraftingOutput(CompactorBlockEntity entity, Item item){
         CraftingInventory ci = new CraftingInventory(new ScreenHandler((ScreenHandlerType)null, -1) {
-            public ItemStack quickMove(PlayerEntity player, int slot) {
+            public ItemStack transferSlot(PlayerEntity player, int slot) {
                 return ItemStack.EMPTY;
             }
             public boolean canUse(PlayerEntity player) {
@@ -188,7 +188,7 @@ public class CompactorBlockEntity extends BlockEntity implements NamedScreenHand
     @Override
     public boolean canInsert(int slot, ItemStack stack, @Nullable Direction side) {
         CraftingInventory ci = new CraftingInventory(new ScreenHandler((ScreenHandlerType)null, -1) {
-            public ItemStack quickMove(PlayerEntity player, int slot) {
+            public ItemStack transferSlot(PlayerEntity player, int slot) {
                 return ItemStack.EMPTY;
             }
             public boolean canUse(PlayerEntity player) {

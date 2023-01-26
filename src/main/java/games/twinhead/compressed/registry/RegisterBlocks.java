@@ -5,22 +5,13 @@ import games.twinhead.compressed.block.CompactorBlock;
 import games.twinhead.compressed.block.CompressedBlockItem;
 import games.twinhead.compressed.block.CompressedBlocks;
 import net.minecraft.block.*;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
-import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.HashMap;
-import java.util.function.Supplier;
 
 public class RegisterBlocks {
     public static HashMap<String, RegistryObject<Block>> compressedBlocks = new HashMap<>();
@@ -33,25 +24,8 @@ public class RegisterBlocks {
     public static final RegistryObject<Block> COMPACTOR = BLOCKS.register("compactor", () -> new CompactorBlock(AbstractBlock.Settings.copy(Blocks.DISPENSER)));
     public static final RegistryObject<Block> CHARCOAL_BLOCK = BLOCKS.register("charcoal_block", () -> new Block(AbstractBlock.Settings.copy(Blocks.COAL_BLOCK)));
 
-    public static final RegistryObject<Item> COMPACTOR_ITEM = ITEMS.register("compactor", () -> new CompressedBlockItem(COMPACTOR.get(), new Item.Settings(), "compactor", 0));
-    public static final RegistryObject<Item> CHARCOAL_BLOCK_ITEM = ITEMS.register("charcoal_block", () -> new CompressedBlockItem(CHARCOAL_BLOCK.get(), new Item.Settings(), "charcoal_block", 16000));
-
-
-//    private static void registerBlock(String name, Block block, int burnTime) {
-//
-//        Registry.register(Registries.BLOCK, new Identifier(Compressed.MOD_ID, name), block);
-//
-//        compressedBlocks.put(name, block);
-//
-//        Item item = new CompressedBlockItem(block, new Item.Settings(), name, burnTime);
-//
-//        //if(burnTime > 0)
-//            //FuelRegistry.INSTANCE.add(item, burnTime);
-//
-//        RegisterItems.registerItem(name, item);
-//    }
-
-
+    public static final RegistryObject<Item> COMPACTOR_ITEM = ITEMS.register("compactor", () -> new CompressedBlockItem(COMPACTOR.get(), new Item.Settings().group(CreativeTab.ITEM_GROUP), "compactor", 0));
+    public static final RegistryObject<Item> CHARCOAL_BLOCK_ITEM = ITEMS.register("charcoal_block", () -> new CompressedBlockItem(CHARCOAL_BLOCK.get(), new Item.Settings().group(CreativeTab.ITEM_GROUP), "charcoal_block", 16000));
 
     public static void registerBlocks(IEventBus MOD_BUS){
 
@@ -60,7 +34,7 @@ public class RegisterBlocks {
                 String name = block.getName(i+1);
                 RegistryObject<Block> blockSupplier = BLOCKS.register(name,() -> getBlock(block));
                 compressedBlocks.put(name, blockSupplier);
-                ITEMS.register(name, () -> new CompressedBlockItem(blockSupplier.get(), new Item.Settings(), name, block.getBurnTime()));
+                ITEMS.register(name, () -> new CompressedBlockItem(blockSupplier.get(), new Item.Settings().group(CreativeTab.ITEM_GROUP), name, block.getBurnTime()));
             }
         }
 

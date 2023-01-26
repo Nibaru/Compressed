@@ -3,8 +3,8 @@ package games.twinhead.compressed.block;
 import games.twinhead.compressed.Compressed;
 import games.twinhead.compressed.registry.RegisterBlocks;
 import net.minecraft.block.*;
-import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.TagKey;
+import net.minecraft.tag.BlockTags;
+import net.minecraft.tag.TagKey;
 import net.minecraftforge.registries.RegistryObject;
 
 public enum CompressedBlocks {

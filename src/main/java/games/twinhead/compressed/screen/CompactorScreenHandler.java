@@ -51,7 +51,7 @@ public class CompactorScreenHandler extends ScreenHandler {
 
     private static boolean hasCompactingRecipe(World world, Item item){
         CraftingInventory ci = new CraftingInventory(new ScreenHandler((ScreenHandlerType)null, -1) {
-            public ItemStack quickMove(PlayerEntity player, int slot) {
+            public ItemStack transferSlot(PlayerEntity player, int slot) {
                 return ItemStack.EMPTY;
             }
             public boolean canUse(PlayerEntity player) {
@@ -81,7 +81,7 @@ public class CompactorScreenHandler extends ScreenHandler {
 
 
     @Override
-    public ItemStack quickMove(PlayerEntity player, int slot) {
+    public ItemStack transferSlot(PlayerEntity player, int slot) {
         ItemStack itemStack = ItemStack.EMPTY;
         Slot slot2 = (Slot)this.slots.get(slot);
         if (slot2 != null && slot2.hasStack()) {
