@@ -14,8 +14,6 @@
     "#compressed:oak_leaves",
     "#compressed:spruce_leaves",
     "#compressed:azalea_leaves",
-    "#compressed:flowering_azalea_leaves",
-    "#compressed:sculk",
-    "#compressed:mangrove_leaves"
+    "#compressed:flowering_azalea_leaves"
   ]
 }

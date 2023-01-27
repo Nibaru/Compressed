@@ -1,7 +1,0 @@
-{
-  "parent": "compressed:block/compressed_cube_all",
-  "textures": {
-    "all": "minecraft:block/sculk",
-    "layer0": "compressed:block/compressed_iii"
-  }
-}

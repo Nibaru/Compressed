@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockEntities {
 
-    private static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Compressed.MOD_ID);
+    private static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, Compressed.MOD_ID);
 
     public static RegistryObject<BlockEntityType<CompactorBlockEntity>> COMPACTOR =
             BLOCK_ENTITIES.register("compactor", () ->  BlockEntityType.Builder.create(CompactorBlockEntity::new, RegisterBlocks.COMPACTOR.get()).build(null));

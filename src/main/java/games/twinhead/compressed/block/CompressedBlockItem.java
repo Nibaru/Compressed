@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.RecipeType;
 import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -38,21 +39,21 @@ public class CompressedBlockItem extends BlockItem {
         if(this.name.equals("charcoal_block")) return;
 
         if(!Screen.hasShiftDown()){
-            tooltip.add(Text.translatable("tooltip.compressed.shift"));
+            tooltip.add(new TranslatableText("tooltip.compressed.shift"));
         } else {
             if(this.name.equals("compactor")){
-                tooltip.add(Text.translatable("tooltip.compressed.compactor"));
-                tooltip.add(Text.translatable("tooltip.compressed.compactor2"));
+                tooltip.add(new TranslatableText("tooltip.compressed.compactor"));
+                tooltip.add(new TranslatableText("tooltip.compressed.compactor2"));
                 return;
             }
             DecimalFormat df = new DecimalFormat("#");
             df.setGroupingSize(3);
             df.setGroupingUsed(true);
-            tooltip.add(Text.translatable("tooltip.compressed.stack", df.format(getNumberOfBlocks(itemStack)) , getFormattedName()));
+            tooltip.add(new TranslatableText("tooltip.compressed.stack", df.format(getNumberOfBlocks(itemStack)) , getFormattedName()));
             if(burnTime > 0)
-                tooltip.add(Text.translatable("tooltip.compressed.fuel", getCompressedBurnTime()));
+                tooltip.add(new TranslatableText("tooltip.compressed.fuel", getCompressedBurnTime()));
             if(getCompression() > 4) //todo find out how to check if the block is in the tag wither_immune
-                tooltip.add(Text.translatable("tooltip.compressed.witherproof"));
+                tooltip.add(new TranslatableText("tooltip.compressed.witherproof"));
         }
     }
 

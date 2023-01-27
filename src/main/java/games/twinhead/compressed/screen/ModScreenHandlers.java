@@ -11,9 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModScreenHandlers {
 
 
-    private static final DeferredRegister<ScreenHandlerType<?>> SCREEN_HANDLERS = DeferredRegister.create(ForgeRegistries.MENU_TYPES, Compressed.MOD_ID);
-
-    //public static ScreenHandlerType<CompactorScreenHandler> COMPACTOR_SCREEN_HANDLER;
+    private static final DeferredRegister<ScreenHandlerType<?>> SCREEN_HANDLERS = DeferredRegister.create(ForgeRegistries.CONTAINERS, Compressed.MOD_ID);
 
     public static final RegistryObject<ScreenHandlerType<CompactorScreenHandler>> COMPACTOR_SCREEN_HANDLER = SCREEN_HANDLERS.register("compactor_screen_handler", () -> IForgeMenuType.create(CompactorScreenHandler::new));
 

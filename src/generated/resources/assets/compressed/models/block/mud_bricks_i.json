@@ -1,7 +1,0 @@
-{
-  "parent": "compressed:block/compressed_cube_all",
-  "textures": {
-    "all": "minecraft:block/mud_bricks",
-    "layer0": "compressed:block/compressed_i"
-  }
-}

@@ -10,8 +10,6 @@
     "#compressed:pumpkin",
     "#compressed:spruce_log",
     "#compressed:warped_nylium",
-    "#compressed:warped_stem",
-    "#compressed:mangrove_log",
-    "#compressed:mangrove_roots"
+    "#compressed:warped_stem"
   ]
 }

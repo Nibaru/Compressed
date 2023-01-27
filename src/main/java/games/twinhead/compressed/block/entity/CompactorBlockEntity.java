@@ -15,6 +15,7 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.recipe.CraftingRecipe;
 import net.minecraft.recipe.RecipeType;
 import net.minecraft.screen.*;
+import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
@@ -62,7 +63,7 @@ public class CompactorBlockEntity extends BlockEntity implements NamedScreenHand
 
     @Override
     public Text getDisplayName() {
-        return Text.literal("Compactor");
+        return new LiteralText("Compactor");
     }
 
     @Nullable

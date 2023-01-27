@@ -53,8 +53,7 @@ public class RegisterBlocks {
                     SPRUCE_LOG,
                     BONE_BLOCK,
                     WARPED_STEM,
-                    BASALT,
-                    MANGROVE_LOG -> new PillarBlock(getSettingsFromBlock(block.getCopyBlock()));
+                    BASALT -> new PillarBlock(getSettingsFromBlock(block.getCopyBlock()));
             case SAND, GRAVEL, RED_SAND -> new FallingBlock(getSettingsFromBlock(block.getCopyBlock()));
             case HAY_BLOCK -> new HayBlock(getSettingsFromBlock(block.getCopyBlock()));
             case HONEY_BLOCK -> new HoneyBlock(getSettingsFromBlock(block.getCopyBlock()));
