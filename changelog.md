@@ -1,8 +1,8 @@
 # Changelog
 
-## [1.8.0 - Forge 1.19.3]
+## [1.8.0 - Forge 1.19.2]
 
-### Updated to 1.19.3
+### Updated to 1.8.0+1.19.2
 
 ### Added
 - Compactor Block
