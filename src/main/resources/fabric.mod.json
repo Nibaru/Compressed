@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "This mod adds storage blocks for most minecraft blocks",
+  "authors": [
+    "Nibaru"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/compressed/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "games.twinhead.compressed.Compressed"
+    ],
+    "client": [
+      "games.twinhead.compressed.client.CompressedClient"
+    ],
+    "fabric-datagen": [
+      "games.twinhead.compressed.datagenerator.CompressedDataGenerator"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
