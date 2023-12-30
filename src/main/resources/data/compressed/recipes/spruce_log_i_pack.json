@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "spruce_log",
+  "key": {
+    "#": {
+      "item": "compressed:spruce_log_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:spruce_log_ii"
+  },
+  "show_notification": true
+}

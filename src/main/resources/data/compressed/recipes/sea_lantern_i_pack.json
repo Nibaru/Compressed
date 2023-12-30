@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sea_lantern",
+  "key": {
+    "#": {
+      "item": "compressed:sea_lantern_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:sea_lantern_ii"
+  },
+  "show_notification": true
+}

@@ -29,8 +29,7 @@ public class CompressedClient implements ClientModInitializer {
                 case OAK_LEAVES,
                 JUNGLE_LEAVES,
                 ACACIA_LEAVES,
-                DARK_OAK_LEAVES,
-                MANGROVE_LEAVES -> registerColor(compressedBlock, (state, world, pos, tintIndex) -> world != null && pos != null ? BiomeColors.getFoliageColor(world, pos) : FoliageColors.getDefaultColor(), (stack, tintIndex) -> FoliageColors.getDefaultColor());
+                DARK_OAK_LEAVES -> registerColor(compressedBlock, (state, world, pos, tintIndex) -> world != null && pos != null ? BiomeColors.getFoliageColor(world, pos) : FoliageColors.getDefaultColor(), (stack, tintIndex) -> FoliageColors.getDefaultColor());
                 case SPRUCE_LEAVES -> registerColor(compressedBlock, (state, world, pos, tintIndex) -> FoliageColors.getSpruceColor(), (stack, tintIndex) -> FoliageColors.getSpruceColor());
                 case BIRCH_LEAVES -> registerColor(compressedBlock, (state, world, pos, tintIndex) -> FoliageColors.getBirchColor(), (stack, tintIndex) -> FoliageColors.getBirchColor());
                 case GRASS_BLOCK -> registerColor(compressedBlock, (state, world, pos, tintIndex) -> world != null && pos != null ? BiomeColors.getGrassColor(world, pos) : GrassColors.getColor(0.5, 1.0), (stack, tintIndex) -> GrassColors.getColor(0.5, 1.0));

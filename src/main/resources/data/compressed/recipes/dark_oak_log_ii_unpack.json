@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "dark_oak_log",
+  "ingredients": [
+    {
+      "item": "compressed:dark_oak_log_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:dark_oak_log_i"
+  }
+}

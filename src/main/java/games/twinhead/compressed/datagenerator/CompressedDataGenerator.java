@@ -10,7 +10,7 @@ public class CompressedDataGenerator implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         fabricDataGenerator.addProvider(ModelGenerator::new);
         fabricDataGenerator.addProvider(LootTableGenerator::new);
-        fabricDataGenerator.addProvider(RecipeGenerator::new);
+        //fabricDataGenerator.addProvider(RecipeGenerator::new);
         fabricDataGenerator.addProvider(TagGenerator::new);
     }
 }

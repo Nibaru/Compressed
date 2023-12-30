@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "magenta_stained_glass",
+  "ingredients": [
+    {
+      "item": "compressed:magenta_stained_glass_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:magenta_stained_glass_ii"
+  }
+}

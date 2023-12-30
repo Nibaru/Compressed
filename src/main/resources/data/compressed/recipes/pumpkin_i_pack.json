@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pumpkin",
+  "key": {
+    "#": {
+      "item": "compressed:pumpkin_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:pumpkin_ii"
+  },
+  "show_notification": true
+}

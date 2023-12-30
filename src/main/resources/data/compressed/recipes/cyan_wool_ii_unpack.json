@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "cyan_wool",
+  "ingredients": [
+    {
+      "item": "compressed:cyan_wool_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:cyan_wool_i"
+  }
+}

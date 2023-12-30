@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "blue_terracotta",
+  "ingredients": [
+    {
+      "item": "compressed:blue_terracotta_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:blue_terracotta"
+  }
+}

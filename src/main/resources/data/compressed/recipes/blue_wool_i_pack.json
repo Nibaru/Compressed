@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "blue_wool",
+  "key": {
+    "#": {
+      "item": "compressed:blue_wool_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:blue_wool_ii"
+  },
+  "show_notification": true
+}

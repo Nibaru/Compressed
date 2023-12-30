@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "white_stained_glass",
+  "ingredients": [
+    {
+      "item": "compressed:white_stained_glass_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:white_stained_glass_iii"
+  }
+}

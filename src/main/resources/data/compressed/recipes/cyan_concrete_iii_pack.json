@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cyan_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:cyan_concrete_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:cyan_concrete_iv"
+  },
+  "show_notification": true
+}

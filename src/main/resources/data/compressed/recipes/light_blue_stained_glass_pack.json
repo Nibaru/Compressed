@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "light_blue_stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:light_blue_stained_glass"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:light_blue_stained_glass_i"
+  },
+  "show_notification": true
+}

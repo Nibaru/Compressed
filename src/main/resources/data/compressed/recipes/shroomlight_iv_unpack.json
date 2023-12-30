@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "shroomlight",
+  "ingredients": [
+    {
+      "item": "compressed:shroomlight_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:shroomlight_iii"
+  }
+}

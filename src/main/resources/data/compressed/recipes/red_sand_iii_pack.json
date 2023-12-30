@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "red_sand",
+  "key": {
+    "#": {
+      "item": "compressed:red_sand_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:red_sand_iv"
+  },
+  "show_notification": true
+}

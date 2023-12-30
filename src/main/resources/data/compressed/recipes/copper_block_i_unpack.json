@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "copper_block",
+  "ingredients": [
+    {
+      "item": "compressed:copper_block_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:copper_block"
+  }
+}

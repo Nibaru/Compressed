@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "basalt",
+  "ingredients": [
+    {
+      "item": "compressed:basalt_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:basalt_ii"
+  }
+}

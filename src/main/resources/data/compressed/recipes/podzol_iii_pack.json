@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "podzol",
+  "key": {
+    "#": {
+      "item": "compressed:podzol_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:podzol_iv"
+  },
+  "show_notification": true
+}

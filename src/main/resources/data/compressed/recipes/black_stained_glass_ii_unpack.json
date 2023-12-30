@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "black_stained_glass",
+  "ingredients": [
+    {
+      "item": "compressed:black_stained_glass_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:black_stained_glass_i"
+  }
+}

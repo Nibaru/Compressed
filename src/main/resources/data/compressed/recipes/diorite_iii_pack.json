@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "diorite",
+  "key": {
+    "#": {
+      "item": "compressed:diorite_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:diorite_iv"
+  },
+  "show_notification": true
+}

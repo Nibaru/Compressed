@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "orange_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:orange_concrete_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:orange_concrete_iii"
+  },
+  "show_notification": true
+}

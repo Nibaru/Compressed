@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sea_lantern",
+  "ingredients": [
+    {
+      "item": "compressed:sea_lantern_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:sea_lantern_ii"
+  }
+}

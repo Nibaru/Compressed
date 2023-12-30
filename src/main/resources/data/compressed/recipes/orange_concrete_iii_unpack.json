@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "orange_concrete",
+  "ingredients": [
+    {
+      "item": "compressed:orange_concrete_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:orange_concrete_ii"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "deepslate_copper_ore",
+  "key": {
+    "#": {
+      "item": "minecraft:deepslate_copper_ore"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:deepslate_copper_ore_i"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "yellow_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:yellow_concrete_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:yellow_concrete_iv"
+  },
+  "show_notification": true
+}

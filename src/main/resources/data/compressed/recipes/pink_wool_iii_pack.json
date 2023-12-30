@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pink_wool",
+  "key": {
+    "#": {
+      "item": "compressed:pink_wool_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:pink_wool_iv"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "jungle_log",
+  "ingredients": [
+    {
+      "item": "compressed:jungle_log_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:jungle_log_i"
+  }
+}

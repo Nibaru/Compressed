@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "netherrack",
+  "key": {
+    "#": {
+      "item": "compressed:netherrack_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:netherrack_iv"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "mycelium",
+  "key": {
+    "#": {
+      "item": "compressed:mycelium_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:mycelium_iv"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "pink_wool",
+  "ingredients": [
+    {
+      "item": "compressed:pink_wool_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:pink_wool_ii"
+  }
+}

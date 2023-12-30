@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "iron_ore",
+  "key": {
+    "#": {
+      "item": "compressed:iron_ore_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:iron_ore_ii"
+  },
+  "show_notification": true
+}

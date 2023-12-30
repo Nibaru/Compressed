@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "black_wool",
+  "ingredients": [
+    {
+      "item": "compressed:black_wool_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:black_wool_ii"
+  }
+}

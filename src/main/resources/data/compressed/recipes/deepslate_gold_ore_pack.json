@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "deepslate_gold_ore",
+  "key": {
+    "#": {
+      "item": "minecraft:deepslate_gold_ore"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:deepslate_gold_ore_i"
+  },
+  "show_notification": true
+}

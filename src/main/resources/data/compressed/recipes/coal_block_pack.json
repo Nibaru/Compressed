@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "coal_block",
+  "key": {
+    "#": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:coal_block_i"
+  },
+  "show_notification": true
+}

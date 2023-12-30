@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "gravel",
+  "key": {
+    "#": {
+      "item": "compressed:gravel_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:gravel_ii"
+  },
+  "show_notification": true
+}

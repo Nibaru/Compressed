@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "white_concrete",
+  "ingredients": [
+    {
+      "item": "compressed:white_concrete_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:white_concrete_iii"
+  }
+}

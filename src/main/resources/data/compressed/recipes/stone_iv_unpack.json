@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "stone",
+  "ingredients": [
+    {
+      "item": "compressed:stone_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:stone_iii"
+  }
+}

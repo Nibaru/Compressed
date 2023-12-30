@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "lapis_ore",
+  "ingredients": [
+    {
+      "item": "compressed:lapis_ore_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:lapis_ore_iii"
+  }
+}

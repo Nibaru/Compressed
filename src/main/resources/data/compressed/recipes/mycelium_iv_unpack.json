@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mycelium",
+  "ingredients": [
+    {
+      "item": "compressed:mycelium_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:mycelium_iii"
+  }
+}

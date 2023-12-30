@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nether_wart_block",
+  "key": {
+    "#": {
+      "item": "compressed:nether_wart_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:nether_wart_block_ii"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cobblestone",
+  "key": {
+    "#": {
+      "item": "compressed:cobblestone_vi"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:cobblestone_vii"
+  },
+  "show_notification": true
+}

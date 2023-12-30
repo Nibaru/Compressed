@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "orange_terracotta",
+  "ingredients": [
+    {
+      "item": "compressed:orange_terracotta_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:orange_terracotta_i"
+  }
+}

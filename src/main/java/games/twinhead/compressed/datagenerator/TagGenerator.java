@@ -10,7 +10,7 @@ import net.minecraft.util.registry.Registry;
 public class TagGenerator extends FabricTagProvider<Block> {
 
     public TagGenerator(FabricDataGenerator output) {
-        super(output, Registry.BLOCK);
+        super(output, Registry.BLOCK, "compressed");
     }
 
     @Override

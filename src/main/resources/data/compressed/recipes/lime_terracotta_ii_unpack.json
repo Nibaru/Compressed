@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "lime_terracotta",
+  "ingredients": [
+    {
+      "item": "compressed:lime_terracotta_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:lime_terracotta_i"
+  }
+}

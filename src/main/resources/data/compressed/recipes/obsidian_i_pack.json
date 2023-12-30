@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "obsidian",
+  "key": {
+    "#": {
+      "item": "compressed:obsidian_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:obsidian_ii"
+  },
+  "show_notification": true
+}

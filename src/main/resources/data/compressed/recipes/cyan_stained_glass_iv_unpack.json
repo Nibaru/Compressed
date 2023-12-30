@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "cyan_stained_glass",
+  "ingredients": [
+    {
+      "item": "compressed:cyan_stained_glass_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:cyan_stained_glass_iii"
+  }
+}

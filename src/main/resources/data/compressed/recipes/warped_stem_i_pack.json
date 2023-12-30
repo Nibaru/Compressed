@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "warped_stem",
+  "key": {
+    "#": {
+      "item": "compressed:warped_stem_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:warped_stem_ii"
+  },
+  "show_notification": true
+}

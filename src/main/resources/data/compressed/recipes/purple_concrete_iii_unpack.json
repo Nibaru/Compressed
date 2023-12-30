@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "purple_concrete",
+  "ingredients": [
+    {
+      "item": "compressed:purple_concrete_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:purple_concrete_ii"
+  }
+}

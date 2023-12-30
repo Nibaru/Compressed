@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "light_gray_wool",
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:light_gray_wool_i"
+  },
+  "show_notification": true
+}

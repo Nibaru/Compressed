@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "coal_block",
+  "ingredients": [
+    {
+      "item": "compressed:coal_block_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:coal_block_ii"
+  }
+}

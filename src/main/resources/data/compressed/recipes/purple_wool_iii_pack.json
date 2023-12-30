@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "purple_wool",
+  "key": {
+    "#": {
+      "item": "compressed:purple_wool_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:purple_wool_iv"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "green_stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:green_stained_glass"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:green_stained_glass_i"
+  },
+  "show_notification": true
+}

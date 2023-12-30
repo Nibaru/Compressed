@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "cyan_concrete",
+  "ingredients": [
+    {
+      "item": "compressed:cyan_concrete_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:cyan_concrete_ii"
+  }
+}

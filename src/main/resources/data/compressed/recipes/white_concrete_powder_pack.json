@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "white_concrete_powder",
+  "key": {
+    "#": {
+      "item": "minecraft:white_concrete_powder"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:white_concrete_powder_i"
+  },
+  "show_notification": true
+}

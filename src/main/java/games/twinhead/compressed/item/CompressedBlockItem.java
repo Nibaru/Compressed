@@ -8,6 +8,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.world.World;
 
 import java.text.DecimalFormat;
@@ -36,7 +37,7 @@ public class CompressedBlockItem extends BlockItem {
 
     public Text getName(ItemStack stack) {
         if (stack.hasCustomName()) return stack.getName();
-        return Text.translatable(parent.getTranslationKey()).append(" " + Compressed.intToRoman(compression).toUpperCase());
+        return new TranslatableText(parent.getTranslationKey()).append(" " + Compressed.intToRoman(compression).toUpperCase());
     }
 
     private double getNumberOfBlocks(ItemStack itemStack){

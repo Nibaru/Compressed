@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stone",
+  "key": {
+    "#": {
+      "item": "compressed:stone_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:stone_ii"
+  },
+  "show_notification": true
+}

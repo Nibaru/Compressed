@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "green_concrete_powder",
+  "key": {
+    "#": {
+      "item": "minecraft:green_concrete_powder"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:green_concrete_powder_i"
+  },
+  "show_notification": true
+}

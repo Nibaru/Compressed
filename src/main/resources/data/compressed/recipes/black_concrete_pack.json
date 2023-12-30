@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "black_concrete",
+  "key": {
+    "#": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:black_concrete_i"
+  },
+  "show_notification": true
+}

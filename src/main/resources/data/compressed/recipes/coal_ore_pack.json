@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "coal_ore",
+  "key": {
+    "#": {
+      "item": "minecraft:coal_ore"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:coal_ore_i"
+  },
+  "show_notification": true
+}

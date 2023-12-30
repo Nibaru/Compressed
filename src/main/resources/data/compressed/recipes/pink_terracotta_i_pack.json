@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pink_terracotta",
+  "key": {
+    "#": {
+      "item": "compressed:pink_terracotta_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:pink_terracotta_ii"
+  },
+  "show_notification": true
+}

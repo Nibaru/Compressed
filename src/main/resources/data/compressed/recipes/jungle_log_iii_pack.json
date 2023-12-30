@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "jungle_log",
+  "key": {
+    "#": {
+      "item": "compressed:jungle_log_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:jungle_log_iv"
+  },
+  "show_notification": true
+}

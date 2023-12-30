@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "copper_block",
+  "key": {
+    "#": {
+      "item": "compressed:copper_block_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:copper_block_iii"
+  },
+  "show_notification": true
+}

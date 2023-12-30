@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "redstone_block",
+  "ingredients": [
+    {
+      "item": "compressed:redstone_block_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:redstone_block_i"
+  }
+}

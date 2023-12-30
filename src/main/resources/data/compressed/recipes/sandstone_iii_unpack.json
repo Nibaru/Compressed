@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sandstone",
+  "ingredients": [
+    {
+      "item": "compressed:sandstone_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:sandstone_ii"
+  }
+}

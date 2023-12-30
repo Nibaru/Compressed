@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "netherite_block",
+  "ingredients": [
+    {
+      "item": "compressed:netherite_block_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:netherite_block_ii"
+  }
+}

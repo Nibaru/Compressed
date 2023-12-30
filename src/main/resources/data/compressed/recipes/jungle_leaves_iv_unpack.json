@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "jungle_leaves",
+  "ingredients": [
+    {
+      "item": "compressed:jungle_leaves_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:jungle_leaves_iii"
+  }
+}

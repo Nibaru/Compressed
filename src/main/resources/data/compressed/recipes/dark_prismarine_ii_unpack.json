@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "dark_prismarine",
+  "ingredients": [
+    {
+      "item": "compressed:dark_prismarine_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:dark_prismarine_i"
+  }
+}

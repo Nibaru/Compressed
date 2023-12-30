@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "lime_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:lime_concrete_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:lime_concrete_ii"
+  },
+  "show_notification": true
+}

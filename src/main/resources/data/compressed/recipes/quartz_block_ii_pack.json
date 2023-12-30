@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "quartz_block",
+  "key": {
+    "#": {
+      "item": "compressed:quartz_block_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:quartz_block_iii"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "gold_ore",
+  "ingredients": [
+    {
+      "item": "compressed:gold_ore_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:gold_ore_i"
+  }
+}

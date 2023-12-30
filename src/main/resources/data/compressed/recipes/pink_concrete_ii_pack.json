@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pink_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:pink_concrete_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:pink_concrete_iii"
+  },
+  "show_notification": true
+}

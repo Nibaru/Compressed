@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "green_wool",
+  "key": {
+    "#": {
+      "item": "compressed:green_wool_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:green_wool_ii"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "granite",
+  "key": {
+    "#": {
+      "item": "compressed:granite_viii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:granite_ix"
+  },
+  "show_notification": true
+}

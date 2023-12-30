@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "crimson_nylium",
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_nylium"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:crimson_nylium_i"
+  },
+  "show_notification": true
+}

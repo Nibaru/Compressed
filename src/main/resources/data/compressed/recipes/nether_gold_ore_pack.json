@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nether_gold_ore",
+  "key": {
+    "#": {
+      "item": "minecraft:nether_gold_ore"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:nether_gold_ore_i"
+  },
+  "show_notification": true
+}

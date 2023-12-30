@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "snow_block",
+  "key": {
+    "#": {
+      "item": "compressed:snow_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:snow_block_ii"
+  },
+  "show_notification": true
+}

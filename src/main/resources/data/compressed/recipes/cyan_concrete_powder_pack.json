@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cyan_concrete_powder",
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_concrete_powder"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:cyan_concrete_powder_i"
+  },
+  "show_notification": true
+}

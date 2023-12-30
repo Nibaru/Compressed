@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "redstone_block",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:redstone_block_i"
+  },
+  "show_notification": true
+}

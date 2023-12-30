@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shroomlight",
+  "key": {
+    "#": {
+      "item": "minecraft:shroomlight"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:shroomlight_i"
+  },
+  "show_notification": true
+}

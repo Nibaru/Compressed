@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "acacia_log",
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:acacia_log_i"
+  },
+  "show_notification": true
+}

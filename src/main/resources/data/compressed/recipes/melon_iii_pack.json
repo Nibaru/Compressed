@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "melon",
+  "key": {
+    "#": {
+      "item": "compressed:melon_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:melon_iv"
+  },
+  "show_notification": true
+}

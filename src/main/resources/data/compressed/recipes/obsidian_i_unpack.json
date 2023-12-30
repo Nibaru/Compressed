@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "obsidian",
+  "ingredients": [
+    {
+      "item": "compressed:obsidian_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:obsidian"
+  }
+}

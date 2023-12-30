@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "green_concrete",
+  "key": {
+    "#": {
+      "item": "minecraft:green_concrete"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:green_concrete_i"
+  },
+  "show_notification": true
+}

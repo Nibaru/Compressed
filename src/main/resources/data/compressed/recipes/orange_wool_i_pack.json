@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "orange_wool",
+  "key": {
+    "#": {
+      "item": "compressed:orange_wool_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:orange_wool_ii"
+  },
+  "show_notification": true
+}

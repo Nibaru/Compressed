@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "nether_gold_ore",
+  "ingredients": [
+    {
+      "item": "compressed:nether_gold_ore_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:nether_gold_ore_iii"
+  }
+}

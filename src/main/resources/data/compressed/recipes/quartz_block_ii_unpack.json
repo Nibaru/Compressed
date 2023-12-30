@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "quartz_block",
+  "ingredients": [
+    {
+      "item": "compressed:quartz_block_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:quartz_block_i"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "light_blue_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:light_blue_concrete_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:light_blue_concrete_iv"
+  },
+  "show_notification": true
+}

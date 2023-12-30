@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "acacia_leaves",
+  "ingredients": [
+    {
+      "item": "compressed:acacia_leaves_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:acacia_leaves_iii"
+  }
+}

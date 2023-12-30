@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "slime_block",
+  "ingredients": [
+    {
+      "item": "compressed:slime_block_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:slime_block"
+  }
+}

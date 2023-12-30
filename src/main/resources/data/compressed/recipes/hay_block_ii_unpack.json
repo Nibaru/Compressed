@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "hay_block",
+  "ingredients": [
+    {
+      "item": "compressed:hay_block_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:hay_block_i"
+  }
+}

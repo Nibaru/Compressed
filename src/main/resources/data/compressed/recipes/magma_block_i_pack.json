@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "magma_block",
+  "key": {
+    "#": {
+      "item": "compressed:magma_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:magma_block_ii"
+  },
+  "show_notification": true
+}

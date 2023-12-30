@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "coarse_dirt",
+  "ingredients": [
+    {
+      "item": "compressed:coarse_dirt_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:coarse_dirt_i"
+  }
+}

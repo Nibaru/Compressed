@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "tuff",
+  "key": {
+    "#": {
+      "item": "compressed:tuff_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:tuff_iv"
+  },
+  "show_notification": true
+}

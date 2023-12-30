@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "yellow_wool",
+  "ingredients": [
+    {
+      "item": "compressed:yellow_wool_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:yellow_wool_i"
+  }
+}

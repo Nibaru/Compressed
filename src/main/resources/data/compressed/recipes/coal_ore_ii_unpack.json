@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "coal_ore",
+  "ingredients": [
+    {
+      "item": "compressed:coal_ore_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:coal_ore_i"
+  }
+}

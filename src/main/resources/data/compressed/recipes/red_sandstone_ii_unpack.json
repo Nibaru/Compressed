@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "red_sandstone",
+  "ingredients": [
+    {
+      "item": "compressed:red_sandstone_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:red_sandstone_i"
+  }
+}

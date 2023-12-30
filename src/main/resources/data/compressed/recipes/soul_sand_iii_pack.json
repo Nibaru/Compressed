@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "soul_sand",
+  "key": {
+    "#": {
+      "item": "compressed:soul_sand_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:soul_sand_iv"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "hay_block",
+  "key": {
+    "#": {
+      "item": "compressed:hay_block_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:hay_block_iv"
+  },
+  "show_notification": true
+}

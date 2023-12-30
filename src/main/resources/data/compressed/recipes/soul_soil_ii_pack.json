@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "soul_soil",
+  "key": {
+    "#": {
+      "item": "compressed:soul_soil_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:soul_soil_iii"
+  },
+  "show_notification": true
+}

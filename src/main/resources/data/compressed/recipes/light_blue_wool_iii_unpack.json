@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "light_blue_wool",
+  "ingredients": [
+    {
+      "item": "compressed:light_blue_wool_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:light_blue_wool_ii"
+  }
+}

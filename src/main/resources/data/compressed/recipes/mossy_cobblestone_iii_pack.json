@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "mossy_cobblestone",
+  "key": {
+    "#": {
+      "item": "compressed:mossy_cobblestone_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:mossy_cobblestone_iv"
+  },
+  "show_notification": true
+}

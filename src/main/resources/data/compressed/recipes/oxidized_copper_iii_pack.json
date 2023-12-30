@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "oxidized_copper",
+  "key": {
+    "#": {
+      "item": "compressed:oxidized_copper_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:oxidized_copper_iv"
+  },
+  "show_notification": true
+}

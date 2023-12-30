@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "emerald_block",
+  "key": {
+    "#": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:emerald_block_i"
+  },
+  "show_notification": true
+}

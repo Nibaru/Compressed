@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "slime_block",
+  "key": {
+    "#": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:slime_block_i"
+  },
+  "show_notification": true
+}

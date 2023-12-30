@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "red_wool",
+  "key": {
+    "#": {
+      "item": "compressed:red_wool_ii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:red_wool_iii"
+  },
+  "show_notification": true
+}

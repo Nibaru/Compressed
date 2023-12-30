@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "gray_wool",
+  "ingredients": [
+    {
+      "item": "compressed:gray_wool_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:gray_wool_i"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "magma_block",
+  "ingredients": [
+    {
+      "item": "compressed:magma_block_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:magma_block_ii"
+  }
+}

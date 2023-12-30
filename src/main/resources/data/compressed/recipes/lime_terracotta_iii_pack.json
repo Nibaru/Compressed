@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "lime_terracotta",
+  "key": {
+    "#": {
+      "item": "compressed:lime_terracotta_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:lime_terracotta_iv"
+  },
+  "show_notification": true
+}

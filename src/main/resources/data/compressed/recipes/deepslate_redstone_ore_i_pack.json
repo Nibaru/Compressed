@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "deepslate_redstone_ore",
+  "key": {
+    "#": {
+      "item": "compressed:deepslate_redstone_ore_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:deepslate_redstone_ore_ii"
+  },
+  "show_notification": true
+}

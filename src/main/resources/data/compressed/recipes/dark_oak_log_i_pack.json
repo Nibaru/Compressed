@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dark_oak_log",
+  "key": {
+    "#": {
+      "item": "compressed:dark_oak_log_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:dark_oak_log_ii"
+  },
+  "show_notification": true
+}

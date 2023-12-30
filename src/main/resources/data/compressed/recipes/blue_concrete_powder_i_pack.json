@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "blue_concrete_powder",
+  "key": {
+    "#": {
+      "item": "compressed:blue_concrete_powder_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:blue_concrete_powder_ii"
+  },
+  "show_notification": true
+}

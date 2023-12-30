@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "prismarine",
+  "key": {
+    "#": {
+      "item": "compressed:prismarine_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:prismarine_ii"
+  },
+  "show_notification": true
+}

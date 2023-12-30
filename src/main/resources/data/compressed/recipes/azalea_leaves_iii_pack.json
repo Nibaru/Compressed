@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "azalea_leaves",
+  "key": {
+    "#": {
+      "item": "compressed:azalea_leaves_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:azalea_leaves_iv"
+  },
+  "show_notification": true
+}

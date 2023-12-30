@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "tuff",
+  "ingredients": [
+    {
+      "item": "compressed:tuff_iii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:tuff_ii"
+  }
+}

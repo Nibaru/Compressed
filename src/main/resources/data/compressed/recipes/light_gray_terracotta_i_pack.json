@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "light_gray_terracotta",
+  "key": {
+    "#": {
+      "item": "compressed:light_gray_terracotta_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:light_gray_terracotta_ii"
+  },
+  "show_notification": true
+}

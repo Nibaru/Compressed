@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "grass_block",
+  "key": {
+    "#": {
+      "item": "compressed:grass_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:grass_block_ii"
+  },
+  "show_notification": true
+}

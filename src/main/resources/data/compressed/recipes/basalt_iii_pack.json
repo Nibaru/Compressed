@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "basalt",
+  "key": {
+    "#": {
+      "item": "compressed:basalt_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:basalt_iv"
+  },
+  "show_notification": true
+}

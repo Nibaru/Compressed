@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "white_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:white_concrete_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:white_concrete_iv"
+  },
+  "show_notification": true
+}

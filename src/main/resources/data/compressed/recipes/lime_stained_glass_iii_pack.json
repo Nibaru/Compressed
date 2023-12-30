@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "lime_stained_glass",
+  "key": {
+    "#": {
+      "item": "compressed:lime_stained_glass_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:lime_stained_glass_iv"
+  },
+  "show_notification": true
+}

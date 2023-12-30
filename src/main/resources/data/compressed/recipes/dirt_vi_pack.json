@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dirt",
+  "key": {
+    "#": {
+      "item": "compressed:dirt_vi"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:dirt_vii"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "lapis_block",
+  "key": {
+    "#": {
+      "item": "compressed:lapis_block_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:lapis_block_iv"
+  },
+  "show_notification": true
+}

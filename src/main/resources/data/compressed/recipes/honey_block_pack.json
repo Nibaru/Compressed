@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "honey_block",
+  "key": {
+    "#": {
+      "item": "minecraft:honey_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:honey_block_i"
+  },
+  "show_notification": true
+}

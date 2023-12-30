@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "crimson_stem",
+  "key": {
+    "#": {
+      "item": "compressed:crimson_stem_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:crimson_stem_ii"
+  },
+  "show_notification": true
+}

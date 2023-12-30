@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "magenta_terracotta",
+  "key": {
+    "#": {
+      "item": "compressed:magenta_terracotta_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:magenta_terracotta_iv"
+  },
+  "show_notification": true
+}

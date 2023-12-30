@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "magenta_concrete",
+  "key": {
+    "#": {
+      "item": "compressed:magenta_concrete_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:magenta_concrete_iv"
+  },
+  "show_notification": true
+}

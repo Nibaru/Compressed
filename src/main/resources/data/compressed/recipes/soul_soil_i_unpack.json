@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "soul_soil",
+  "ingredients": [
+    {
+      "item": "compressed:soul_soil_i"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:soul_soil"
+  }
+}

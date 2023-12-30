@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "amethyst_block",
+  "ingredients": [
+    {
+      "item": "compressed:amethyst_block_ii"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:amethyst_block_i"
+  }
+}

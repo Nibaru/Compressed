@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "diamond_ore",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_ore"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:diamond_ore_i"
+  },
+  "show_notification": true
+}

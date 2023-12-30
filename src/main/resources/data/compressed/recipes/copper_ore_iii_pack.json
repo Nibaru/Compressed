@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "copper_ore",
+  "key": {
+    "#": {
+      "item": "compressed:copper_ore_iii"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:copper_ore_iv"
+  },
+  "show_notification": true
+}

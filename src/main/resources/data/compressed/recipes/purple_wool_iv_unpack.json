@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "purple_wool",
+  "ingredients": [
+    {
+      "item": "compressed:purple_wool_iv"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compressed:purple_wool_iii"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "amethyst_block",
+  "key": {
+    "#": {
+      "item": "compressed:amethyst_block_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:amethyst_block_ii"
+  },
+  "show_notification": true
+}

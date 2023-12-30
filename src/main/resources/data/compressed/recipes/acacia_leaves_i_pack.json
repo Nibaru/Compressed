@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "acacia_leaves",
+  "key": {
+    "#": {
+      "item": "compressed:acacia_leaves_i"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "compressed:acacia_leaves_ii"
+  },
+  "show_notification": true
+}
