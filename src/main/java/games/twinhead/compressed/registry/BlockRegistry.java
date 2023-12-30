@@ -6,7 +6,6 @@ import net.minecraft.block.*;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.util.ColorCode;
 import net.minecraft.util.Identifier;
 
 import java.util.HashMap;
@@ -35,14 +34,14 @@ public class BlockRegistry {
     private static Block getBlock(ModBlocks modBlock, int compression) {
         return switch (modBlock.getModelType()) {
             case PILLAR, PILLAR_ROTATED, LOG -> new PillarBlock(modBlock.getSettings(compression));
-            case FALLING -> new ColoredFallingBlock(new ColorCode(modBlock.getParentBlock().getDefaultMapColor().color), modBlock.getSettings(compression));
+            case FALLING -> new FallingBlock(modBlock.getSettings(compression));
             case HAY -> new HayBlock(modBlock.getSettings(compression));
             case HONEY -> new HoneyBlock(modBlock.getSettings(compression));
             case SLIME -> new SlimeBlock(modBlock.getSettings(compression));
             case MAGMA -> new MagmaBlock(modBlock.getSettings(compression));
             case REDSTONE -> new RedstoneBlock(modBlock.getSettings(compression));
             case REDSTONE_ORE -> new RedstoneOreBlock(modBlock.getSettings(compression));
-            case TRANSLUCENT -> new TranslucentBlock(modBlock.getSettings(compression));
+            case TRANSLUCENT -> new GlassBlock(modBlock.getSettings(compression));
             default -> new Block(modBlock.getSettings(compression));
         };
     }
