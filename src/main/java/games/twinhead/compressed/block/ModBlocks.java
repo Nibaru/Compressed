@@ -112,7 +112,6 @@ public enum ModBlocks {
     DARK_OAK_LOG(Blocks.DARK_OAK_LOG, ModModelType.LOG, BlockTags.AXE_MINEABLE),
     OAK_LOG(Blocks.OAK_LOG, ModModelType.LOG, BlockTags.AXE_MINEABLE),
     SPRUCE_LOG(Blocks.SPRUCE_LOG, ModModelType.LOG, BlockTags.AXE_MINEABLE),
-    CHERRY_LOG(Blocks.CHERRY_LOG, ModModelType.LOG, BlockTags.AXE_MINEABLE),
     MANGROVE_LOG(Blocks.MANGROVE_LOG, ModModelType.LOG, BlockTags.AXE_MINEABLE),
 
     ACACIA_LEAVES(Blocks.ACACIA_LEAVES, ModModelType.LEAVES, BlockTags.HOE_MINEABLE),
@@ -123,9 +122,7 @@ public enum ModBlocks {
     SPRUCE_LEAVES(Blocks.SPRUCE_LEAVES, ModModelType.LEAVES, BlockTags.HOE_MINEABLE),
     AZALEA_LEAVES(Blocks.AZALEA_LEAVES, ModModelType.LEAVES, BlockTags.HOE_MINEABLE),
     FLOWERING_AZALEA_LEAVES(Blocks.FLOWERING_AZALEA_LEAVES,ModModelType.LEAVES, BlockTags.HOE_MINEABLE),
-    CHERRY_LEAVES(Blocks.CHERRY_LEAVES, ModModelType.LEAVES, BlockTags.HOE_MINEABLE),
     MANGROVE_LEAVES(Blocks.MANGROVE_LEAVES, ModModelType.LEAVES, BlockTags.HOE_MINEABLE),
-
 
     SCULK(Blocks.SCULK, BlockTags.HOE_MINEABLE),
     MANGROVE_ROOTS(Blocks.MANGROVE_ROOTS, ModModelType.ROOTS, BlockTags.AXE_MINEABLE),
@@ -273,7 +270,7 @@ public enum ModBlocks {
 
     public AbstractBlock.Settings getSettings(int compression){
         Block block = this.parentBlock;
-        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
+        AbstractBlock.Settings settings = AbstractBlock.Settings.of(block.getDefaultState().getMaterial())
                 .sounds(block.getDefaultState().getSoundGroup())
                 .luminance((view) -> block.getDefaultState().getLuminance())
                 .mapColor(block.getDefaultMapColor())
