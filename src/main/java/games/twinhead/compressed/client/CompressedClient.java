@@ -23,8 +23,6 @@ public class CompressedClient implements ClientModInitializer {
         }
     }
 
-
-
     private void Colors(){
         for (ModBlocks compressedBlock: ModBlocks.values()) {
             switch (compressedBlock){

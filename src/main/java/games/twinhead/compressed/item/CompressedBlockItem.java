@@ -5,6 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
@@ -14,10 +15,10 @@ import java.util.List;
 
 public class CompressedBlockItem extends BlockItem {
 
-    private final Block parent;
+    private final Item parent;
     private final int compression;
 
-    public CompressedBlockItem(Block block, Block parent, int compression, Settings settings) {
+    public CompressedBlockItem(Block block, Item parent, int compression, Settings settings) {
         super(block, settings);
         this.parent = parent;
         this.compression = compression;

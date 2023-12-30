@@ -15,11 +15,8 @@ public class RecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
-        //offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, Items.CHARCOAL, RecipeCategory.BUILDING_BLOCKS, RegisterBlocks.compressedBlocks.get("charcoal_block").asItem());
-
         for (ModBlocks block: ModBlocks.values()) {
             offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, block.getParentBlock(), RecipeCategory.BUILDING_BLOCKS, block.get(1), block.toString().toLowerCase() + "_pack", block.toString().toLowerCase(), block.name(1) + "_unpack", block.toString().toLowerCase());
-
             for (int i = 0; i < block.getMaxCompression() - 1; i++) {
                 offerReversibleCompactingRecipes(exporter,  RecipeCategory.BUILDING_BLOCKS, block.get(i +1),  RecipeCategory.BUILDING_BLOCKS, block.get(i + 2), block.name(i + 1) + "_pack", block.toString().toLowerCase(), block.name(i + 2) + "_unpack", block.toString().toLowerCase());
             }

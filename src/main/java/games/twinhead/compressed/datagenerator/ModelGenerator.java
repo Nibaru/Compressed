@@ -38,7 +38,6 @@ public class ModelGenerator extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
     }
 
     public void registerCubeAll(BlockStateModelGenerator blockStateModelGenerator, ModBlocks block, int compression, String modelName){

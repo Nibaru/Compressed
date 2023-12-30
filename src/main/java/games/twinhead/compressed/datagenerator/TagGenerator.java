@@ -19,10 +19,12 @@ public class TagGenerator extends FabricTagProvider.BlockTagProvider {
         for (ModBlocks block: ModBlocks.values()) {
             for (int i = 0; i < block.getMaxCompression(); i++) {
                 for (int j = 0; j < block.getBlockTags().length; j++) {
-                    getOrCreateTagBuilder(block.getBlockTags()[j]).add(block.get(i+1));
+                    getOrCreateTagBuilder(block.getBlockTags()[j]).add(block.get(i + 1));
                 }
             }
-            if (block.getMaxCompression() > 4) getOrCreateTagBuilder(BlockTags.WITHER_IMMUNE).add(block.get(block.getMaxCompression()));
+            if (block.getMaxCompression() > 4)
+                getOrCreateTagBuilder(BlockTags.WITHER_IMMUNE).add(block.get(block.getMaxCompression()));
         }
+
     }
 }

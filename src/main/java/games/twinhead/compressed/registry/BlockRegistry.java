@@ -25,7 +25,7 @@ public class BlockRegistry {
     }
 
     public static void registerBlockItem(ModBlocks modBlock, int compression) {
-        Registry.register(Registries.ITEM, modBlock.id(compression), new CompressedBlockItem(modBlock.get(compression), modBlock.getParentBlock(), compression, new Item.Settings()));
+        Registry.register(Registries.ITEM, modBlock.id(compression), new CompressedBlockItem(modBlock.get(compression), modBlock.getParentBlock().asItem(), compression, new Item.Settings()));
     }
 
     public static void registerBlock(ModBlocks modBlock, int compression) {
