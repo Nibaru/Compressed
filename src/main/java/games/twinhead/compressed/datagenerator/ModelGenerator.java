@@ -2,7 +2,7 @@ package games.twinhead.compressed.datagenerator;
 
 import games.twinhead.compressed.Compressed;
 import games.twinhead.compressed.block.ModBlocks;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
 import net.minecraft.util.Identifier;
@@ -11,7 +11,7 @@ import java.util.Optional;
 
 public class ModelGenerator extends FabricModelProvider {
 
-    public ModelGenerator(FabricDataOutput output) {
+    public ModelGenerator(FabricDataGenerator output) {
         super(output);
     }
 

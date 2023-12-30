@@ -4,9 +4,8 @@ import games.twinhead.compressed.block.ModBlocks;
 import games.twinhead.compressed.item.CompressedBlockItem;
 import net.minecraft.block.*;
 import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 import java.util.HashMap;
 
@@ -24,11 +23,11 @@ public class BlockRegistry {
     }
 
     public static void registerBlockItem(ModBlocks modBlock, int compression) {
-        Registry.register(Registries.ITEM, modBlock.id(compression), new CompressedBlockItem(modBlock.get(compression), modBlock.getParentBlock().asItem(), compression, new Item.Settings()));
+        Registry.register(Registry.ITEM, modBlock.id(compression), new CompressedBlockItem(modBlock.get(compression), modBlock.getParentBlock().asItem(), compression, new Item.Settings()));
     }
 
     public static void registerBlock(ModBlocks modBlock, int compression) {
-        MOD_BLOCKS.put(modBlock.id(compression), Registry.register(Registries.BLOCK, modBlock.id(compression), getBlock(modBlock, compression)));
+        MOD_BLOCKS.put(modBlock.id(compression), Registry.register(Registry.BLOCK, modBlock.id(compression), getBlock(modBlock, compression)));
     }
 
     private static Block getBlock(ModBlocks modBlock, int compression) {

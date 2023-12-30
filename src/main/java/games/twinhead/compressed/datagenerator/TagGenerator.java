@@ -1,21 +1,20 @@
 package games.twinhead.compressed.datagenerator;
 
 import games.twinhead.compressed.block.ModBlocks;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.block.Block;
+import net.minecraft.tag.BlockTags;
+import net.minecraft.util.registry.Registry;
 
-import java.util.concurrent.CompletableFuture;
+public class TagGenerator extends FabricTagProvider<Block> {
 
-public class TagGenerator extends FabricTagProvider.BlockTagProvider {
-
-    public TagGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
-        super(output, registriesFuture);
+    public TagGenerator(FabricDataGenerator output) {
+        super(output, Registry.BLOCK);
     }
 
     @Override
-    protected void configure(RegistryWrapper.WrapperLookup arg) {
+    protected void generateTags() {
         for (ModBlocks block: ModBlocks.values()) {
             for (int i = 0; i < block.getMaxCompression(); i++) {
                 for (int j = 0; j < block.getBlockTags().length; j++) {
